@@ -1,0 +1,6 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="mail icon placeholder">
+  <rect width="128" height="128" rx="28" fill="#0D1117"/>
+  <rect x="24" y="36" width="80" height="56" rx="8" fill="#F0F6FC"/>
+  <path d="M28 42L64 70L100 42" fill="none" stroke="#1F6FEB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 88L52 64M100 88L76 64" fill="none" stroke="#238636" stroke-width="8" stroke-linecap="round"/>
+</svg>
