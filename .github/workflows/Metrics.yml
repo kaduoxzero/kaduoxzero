@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ${{ github.repository_owner }}
-          config_timezone: Europe/Minsk
+          config_timezone: Asia/Shanghai
 #          config_display: columns  # отображать информацию по колонкам
           committer_message: "chore: update metrics"
           template: classic
@@ -48,7 +48,7 @@ jobs:
           plugin_lines_skipped: none
 
           plugin_skyline: yes  # плагин 3д активности скайлайн
-          plugin_skyline_year: 2024 # за какой год
+          plugin_skyline_year: 2025 # за какой год
           plugin_skyline_frames: 60  # количество кадров
           plugin_skyline_quality: 0  # качество 1 - лучшее
 
