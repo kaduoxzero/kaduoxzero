@@ -166,8 +166,9 @@
 
 ## 联系方式
 
-目前只保留 GitHub 公开主页作为联系入口：[@kaduoxzero](https://github.com/kaduoxzero)。
+Github公开主页：[@kaduoxzero](https://github.com/kaduoxzero)。
 
+Gmail:liulizhi64@gmail.com
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:8A2BE2,55:1F6FEB,100:0D1117" alt="footer" />
