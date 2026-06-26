@@ -1,6 +1,12 @@
 <div align="center">
+  <img src="./assets/Bottom_up.svg" width="100%" alt="top decoration" />
+</div>
+
+<div align="center">
 
 # kaduoxzero
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Hi%2C+I+am+kaduoxzero;Java+Backend+%2F+Full+Stack+Developer;Spring+Boot+%2B+Vue+3+Project+Practice;Microservices+%2B+AI+Engineering" alt="typing svg" />
 
 **Java 后端 / 全栈开发方向 · Spring Boot · Vue 3 · 微服务 · AI 工程化实践**
 
@@ -9,6 +15,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Project%20Practice-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Profile Automation](https://img.shields.io/github/actions/workflow/status/kaduoxzero/kaduoxzero/Metrics.yml?branch=main&label=Metrics&logo=githubactions&style=for-the-badge)
 
 </div>
 
@@ -16,7 +23,7 @@
 
 ## 关于我
 
-我主要围绕 **Java Web 后端、前后端分离系统、微服务工程化和 AI 应用集成** 做项目实践。当前仓库只展示 `kaduoxzero` 账号下的公开项目和 GitHub 动态数据，不填写虚构 Star、Fork、贡献数、奖项、公司、邮箱或社交账号。
+我主要围绕 **Java Web 后端、前后端分离系统、微服务工程化和 AI 应用集成** 做项目实践。当前主页只展示 `kaduoxzero` 账号下的公开项目和 GitHub 动态数据，不手动填写虚构 Star、Fork、贡献数、奖项、公司、邮箱或社交账号。
 
 我更关注这些方向：
 
@@ -54,7 +61,7 @@
 - 用状态机、策略模式和分布式事务思路拆解订单流转、取消、核销、退款等复杂业务。
 - 用 Redis Geo / Redisson 处理附近服务人员匹配和多人抢单并发问题。
 
-**相关模块仓库**：
+**相关模块仓库**
 
 | 模块 | 仓库 |
 |---|---|
@@ -94,18 +101,64 @@
 
 ---
 
-## GitHub 数据
+## GitHub 动态看板
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=false" alt="kaduoxzero GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="kaduoxzero top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" alt="kaduoxzero GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="kaduoxzero top languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-dark&hide_border=true&area=true" width="100%" alt="kaduoxzero GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-compact&hide_border=true&area=true" width="100%" alt="kaduoxzero GitHub activity graph" />
 </div>
 
-> 上面的统计图读取 GitHub 公开数据，不在 README 中手动填写 Star、Fork、贡献数或语言占比。
+---
+
+## Metrics
+
+<div align="center">
+  <img src="./github-metrics.svg" width="100%" alt="kaduoxzero GitHub Metrics" />
+</div>
+
+---
+
+## Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
+  <img alt="kaduoxzero contribution grid snake animation" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+## 3D Contribution Graph
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="kaduoxzero 3D Contribution Graph" />
+</div>
+
+---
+
+## Trophy
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8" width="100%" alt="kaduoxzero GitHub Profile Trophy" />
+</div>
+
+---
+
+## Star History
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/WebAI-Tlias,kaduoxzero/YunLanHome&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/WebAI-Tlias,kaduoxzero/YunLanHome&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/WebAI-Tlias,kaduoxzero/YunLanHome&type=Date" />
+  </picture>
+</div>
+
+> 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成，不在 README 中手动填写 Star、Fork、贡献数或语言占比。
 
 ---
 
@@ -116,7 +169,9 @@
 ---
 
 <div align="center">
+  <strong>Keep building. Keep shipping.</strong>
+</div>
 
-**Keep building. Keep shipping.**
-
+<div align="center">
+  <img src="./assets/Bottom_down.svg" width="100%" alt="bottom decoration" />
 </div>
