@@ -160,7 +160,7 @@
   </picture>
 </div>
 
-> 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成，不在 README 中手动填写 Star、Fork、贡献数或语言占比。
+> 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成。
 
 ---
 
