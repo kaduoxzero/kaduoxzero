@@ -28,11 +28,11 @@
 
 ---
 
-## 关于我
+## About me
 
-我主要围绕 **Java Web 后端、前后端分离系统、微服务工程化和 AI 应用集成** 做项目实践。当前主页只展示 `kaduoxzero` 账号下的公开项目和 GitHub 动态数据，不手动填写虚构 Star、Fork、贡献数、奖项、公司、邮箱或社交账号。
+围绕 **Java Web 后端、前后端分离系统、微服务工程化和 AI 应用集成** 项目实践。当前主页只展示 `kaduoxzero` 账号下的公开项目和 GitHub 动态数据。
 
-我更关注这些方向：
+关注方向：
 
 - **后端工程**：Spring Boot、Spring Cloud Alibaba、MyBatis/MyBatis-Plus、接口设计、权限控制、业务分层。
 - **中间件应用**：MySQL、Redis、RabbitMQ、Elasticsearch、MinIO、Nacos、Docker Compose。
