@@ -198,15 +198,17 @@
 
 ---
 
-## GitHub Metrics
+<!-- ## GitHub Metrics (暂时注释，待 METRICS_TOKEN 修复后恢复)
 
 <div align="center">
   <img src="./github-metrics.svg" width="100%" alt="kaduoxzero GitHub Metrics" />
 </div>
 
----
+--- -->
 
 ## 动态贡献图
+
+> **提示：** 以下 Snake 动画和 3D 贡献图依赖 GitHub 静态资源托管，需在 GitHub 网页端查看完整效果。
 
 <div align="center">
   <picture>
@@ -224,15 +226,30 @@
 
 ---
 
-## 公开 Star 趋势
+## 近期项目进展
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date" />
-    <img width="100%" alt="Star History Chart" src="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date" />
-  </picture>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🚀 SpikeGuard 微服务电商系统</h4>
+      <p>完成从单体到微服务的架构升级，集成 Spring Cloud Alibaba、Nacos、Sentinel、Seata，覆盖网关鉴权、库存高并发、异步消息和全链路观测。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 AI 风控引擎 (SemiRisk)</h4>
+      <p>基于 LangGraph + DeepSeek API 构建智能风险评估工作流，实现 RAG 知识库问答、向量检索和 AI 报告自动生成。</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏠 YunLanHome O2O 家政平台</h4>
+      <p>练习高并发业务场景：Redis Geo 附近匹配、RabbitMQ 异步削峰、分布式事务保障订单流转一致性。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛠️ 工程化与 CI/CD</h4>
+      <p>GitHub Actions 自动化 Metrics / Snake / 3D 贡献图生成；Docker Compose 一键部署中间件；Prometheus + Grafana 可观测性体系。</p>
+    </td>
+  </tr>
+</table>
 
 > 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成；私有仓库不会接入第三方公开统计图。
 
