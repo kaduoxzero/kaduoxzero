@@ -15,14 +15,14 @@
 <table>
   <tr>
     <td><img src="./assets/stats.svg" alt="stats" /></td>
-    <td><img src="./assets/top-langs.svg" alt="langs" /></td>
+    <td><img src="./assets/repos-per-language.svg" alt="languages" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
     <td><img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" /></td>
-    <td><img src="./assets/trophy.svg" alt="trophy" /></td>
+    <td><img src="./assets/productive-time.svg" alt="productive time" /></td>
   </tr>
 </table>
 

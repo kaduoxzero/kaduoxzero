@@ -20,22 +20,22 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Generate Stats Card
+      - name: Generate Stats Card (summary-cards)
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" -o assets/stats.svg
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" -o assets/stats.svg
 
-      - name: Generate Top Langs Card
+      - name: Generate Repos Per Language Card (summary-cards)
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" -o assets/top-langs.svg
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" -o assets/repos-per-language.svg
 
-      - name: Generate Trophy SVG
+      - name: Generate Productive Time Card (summary-cards)
         run: |
-          curl -s "https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&no-frame=true&margin-w=15&column=7" -o assets/trophy.svg
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" -o assets/productive-time.svg
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/stats.svg assets/top-langs.svg assets/trophy.svg
+          git add assets/stats.svg assets/repos-per-language.svg assets/productive-time.svg
           git diff --staged --quiet || git commit -m "chore: update stats cards SVG [skip ci]"
           git push
