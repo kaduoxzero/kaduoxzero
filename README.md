@@ -169,13 +169,7 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="kaduoxzero profile summary" />
 </div>
 
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/calendar?username=kaduoxzero&theme=tokyonight" alt="kaduoxzero calendar heatmap" />
-</div>
 
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/isocalendar?username=kaduoxzero&theme=tokyonight&duration=full-year" alt="kaduoxzero isocalendar" />
-</div>
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyonight&hide_border=true&area=true" alt="kaduoxzero GitHub activity graph" />
