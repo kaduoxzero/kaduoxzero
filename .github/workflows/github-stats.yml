@@ -1,4 +1,4 @@
-﻿name: GitHub Stats Cards
+name: GitHub Stats Cards
 
 on:
   schedule:
@@ -28,10 +28,14 @@ jobs:
         run: |
           curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" -o assets/top-langs.svg
 
+      - name: Generate Trophy SVG
+        run: |
+          curl -s "https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&no-frame=true&margin-w=15&column=7" -o assets/trophy.svg
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/stats.svg assets/top-langs.svg
+          git add assets/stats.svg assets/top-langs.svg assets/trophy.svg
           git diff --staged --quiet || git commit -m "chore: update stats cards SVG [skip ci]"
           git push

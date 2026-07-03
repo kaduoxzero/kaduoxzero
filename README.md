@@ -4,29 +4,35 @@
 
 <div align="left" style="font-size:80px">👨‍💻</div>
 
-- 🔭 I'm currently working on **微服务电商系统 & AI 风控平台**
-- 🌱 I'm currently learning **Spring AI、LangGraph、RAG**
-- 💬 Ask me about **Java、Spring Cloud、分布式中间件**
-- 📫 How to reach me: **liulizhi64@gmail.com**
-- ⚡ Fun fact: **Keep building. Keep shipping.**
+- 🔭 目前在做的：**微服务电商系统** & **AI 风控平台**
+- 🌱 正在学习：**Spring AI · LangGraph · RAG**
+- 💬 可以聊：**Java · Spring Cloud · 分布式中间件**
+- 📫 联系我：**liulizhi64@gmail.com**
+- ⚡ Keep building. Keep shipping.
 
 <br />
 
+<table>
+  <tr>
+    <td><img src="./assets/stats.svg" alt="stats" /></td>
+    <td><img src="./assets/top-langs.svg" alt="langs" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" /></td>
+    <td><img src="./assets/trophy.svg" alt="trophy" /></td>
+  </tr>
+</table>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" alt="stats" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="activity graph" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="langs" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:liulizhi64@gmail.com"><img src="https://img.shields.io/badge/Email-liulizhi64@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:liulizhi64@gmail.com"><img src="https://img.shields.io/badge/Email-liulizhi64@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
 
 <details>
@@ -59,27 +65,6 @@
 | **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
 | **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios |
 | **DevOps & AI** | Docker · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
-
-</details>
-
-<details>
-<summary><b>📊 编码习惯</b></summary>
-
-**活跃时段**
-
-```text
-🌅 上午    少量提交
-🌆 下午    主要工作时间
-🌃 晚上    高频提交时段
-🌙 深夜    偶尔加班
-```
-
-**📅 每周提交分布**
-
-```text
-周一 - 周五    工作日稳定提交
-周末           学习和个人项目
-```
 
 </details>
 
