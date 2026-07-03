@@ -42,8 +42,6 @@
 - **工程化与联调**：Docker Compose、Maven 多模块、Prometheus/Grafana、Zipkin、Kibana、GitHub Actions、前后端联调。
 - **AI 工程化**：DeepSeek API、Spring AI、RAG、向量检索、知识库问答、报告生成、Agent 流程编排。
 
----
-
 ## 代表项目
 
 <table>
@@ -97,8 +95,6 @@
   </tr>
 </table>
 
----
-
 ## 公开仓库矩阵
 
 <table>
@@ -145,73 +141,18 @@
 
 ---
 
-## 🛠 技术栈聚焦
+## 技术栈
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ Backend</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/Spring%20Cloud-Alibaba-00A1E9?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Spring Cloud Alibaba" />
-        <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
-        <img src="https://img.shields.io/badge/MyBatis--Plus-1AAD1A?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis-Plus" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-        <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=api&logoColor=white" alt="REST API" />
-        <img src="https://img.shields.io/badge/RBAC-333333?style=for-the-badge&logo=auth0&logoColor=white" alt="RBAC" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🗄️ Middleware</h3>
-      <p>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-        <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-        <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
-        <img src="https://img.shields.io/badge/Nacos-00A1E9?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Nacos" />
-        <img src="https://img.shields.io/badge/Sentinel-00A1E9?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Sentinel" />
-        <img src="https://img.shields.io/badge/Seata-00A1E9?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Seata" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎨 Frontend</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue 3" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-        <img src="https://img.shields.io/badge/Element%20Plus-409EFF?style=for-the-badge&logo=element&logoColor=white" alt="Element Plus" />
-        <img src="https://img.shields.io/badge/Vant-1989FA?style=for-the-badge&logo=vant&logoColor=white" alt="Vant" />
-        <img src="https://img.shields.io/badge/ECharts-AA344D?style=for-the-badge&logo=apacheecharts&logoColor=white" alt="ECharts" />
-        <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
-        <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" />
-        <img src="https://img.shields.io/badge/Vue%20Router-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue Router" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚀 DevOps &amp; AI</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
-        <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
-        <img src="https://img.shields.io/badge/Zipkin-FE9800?style=for-the-badge&logo=zipkin&logoColor=white" alt="Zipkin" />
-        <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana" />
-        <img src="https://img.shields.io/badge/DeepSeek-000000?style=for-the-badge&logo=openai&logoColor=white" alt="DeepSeek API" />
-        <img src="https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring AI" />
-        <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="RAG" />
-      </p>
-    </td>
-  </tr>
-</table>
+| 领域 | 核心技术 |
+|------|----------|
+| **Backend** | Java 21 · Spring Boot 3 · Spring Cloud Alibaba · Spring Security · MyBatis-Plus · JWT / RBAC · REST API |
+| **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
+| **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios · Vue Router |
+| **DevOps & AI** | Docker · Docker Compose · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
 
 ---
 
-## 📊 GitHub 数据总览
+## GitHub 数据总览
 
 <div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="kaduoxzero GitHub stats" />
@@ -237,18 +178,10 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-compact&hide_border=true&area=true" width="100%" alt="kaduoxzero GitHub activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyonight&hide_border=true&area=true" alt="kaduoxzero GitHub activity graph" />
 </div>
 
 ---
-
-<!-- ## GitHub Metrics (暂时注释，待 METRICS_TOKEN 修复后恢复)
-
-<div align="center">
-  <img src="./github-metrics.svg" width="100%" alt="kaduoxzero GitHub Metrics" />
-</div>
-
---- -->
 
 ## 动态贡献图
 
@@ -270,56 +203,47 @@
 
 ---
 
-## 📌 近期项目进展
+## 近期项目进展
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🚀 SpikeGuard 微服务电商系统</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Spring%20Cloud-Alibaba-00A1E9?style=flat-square&logo=alibabacloud&logoColor=white" alt="Spring Cloud Alibaba" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      </p>
-      <p>完成从单体到微服务的架构升级，集成 Spring Cloud Alibaba、Nacos、Sentinel、Seata，覆盖网关鉴权、库存高并发、异步消息和全链路观测。</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤖 AI 风控引擎 (SemiRisk)</h4>
-      <p>
-        <img src="https://img.shields.io/badge/DeepSeek-API-000000?style=flat-square&logo=openai&logoColor=white" alt="DeepSeek" />
-        <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-        <img src="https://img.shields.io/badge/Vue-3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3" />
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js" />
-        <img src="https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=openai&logoColor=white" alt="RAG" />
-      </p>
-      <p>基于 LangGraph + DeepSeek API 构建智能风险评估工作流，实现 RAG 知识库问答、向量检索和 AI 报告自动生成。</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🏠 YunLanHome O2O 家政平台</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Redis%20Geo-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis Geo" />
-        <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-        <img src="https://img.shields.io/badge/Seata-00A1E9?style=flat-square&logo=alibabacloud&logoColor=white" alt="Seata" />
-        <img src="https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-      </p>
-      <p>练习高并发业务场景：Redis Geo 附近匹配、RabbitMQ 异步削峰、分布式事务保障订单流转一致性。</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛠️ 工程化与 CI/CD</h4>
-      <p>
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-        <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
-        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
-        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
-      </p>
-      <p>GitHub Actions 自动化 Metrics / Snake / 3D 贡献图生成；Docker Compose 一键部署中间件；Prometheus + Grafana 可观测性体系。</p>
-    </td>
-  </tr>
-</table>
+### 🚀 SpikeGuard 微服务电商系统
+
+完成从单体到微服务的架构升级，集成 Spring Cloud Alibaba、Nacos、Sentinel、Seata，覆盖网关鉴权、库存高并发、异步消息和全链路观测。
+
+**关键技术点：**
+
+- 高并发库存扣减（Redis + Lua）
+- 异步消息削峰（RabbitMQ）
+- 全链路可观测性（Prometheus + Grafana + Zipkin）
+
+### 🤖 AI 风控引擎 (SemiRisk)
+
+基于 LangGraph + DeepSeek API 构建智能风险评估工作流，实现 RAG 知识库问答、向量检索和 AI 报告自动生成。
+
+**关键技术点：**
+
+- RAG 检索与知识库问答（Elasticsearch dense_vector / RRF）
+- AI 任务隔离（RabbitMQ + 线程池）
+- 企业画像与风险可视化（Vue 3 + Three.js）
+
+### 🏠 YunLanHome O2O 家政平台
+
+练习高并发业务场景：Redis Geo 附近匹配、RabbitMQ 异步削峰、分布式事务保障订单流转一致性。
+
+**关键技术点：**
+
+- Redis Geo 附近匹配 + Redisson 多人抢单
+- 状态机 + 策略模式拆解订单流转
+- 分布式事务（Seata）保障一致性
+
+### 🛠️ 工程化与 CI/CD
+
+GitHub Actions 自动化 Metrics / Snake / 3D 贡献图生成；Docker Compose 一键部署中间件；Prometheus + Grafana 可观测性体系。
+
+**关键技术点：**
+
+- GitHub Actions 自动化工作流
+- Docker Compose 中间件编排
+- Prometheus + Grafana + Kibana 可观测性
 
 > 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成；私有仓库不会接入第三方公开统计图。
 
