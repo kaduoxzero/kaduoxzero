@@ -80,19 +80,29 @@
 <summary><b>📊 GitHub Statistics</b></summary>
 <br/>
 
+**📈 数据总览** — 总星标 / 年度提交 / 贡献仓库数
+
 <table>
   <tr>
-    <td><img src="./assets/stats.svg" alt="stats" /></td>
-    <td><img src="./assets/repos-per-language.svg" alt="languages" /></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile details" /></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="stats" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos language" /></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=tokyonight" alt="commit language" /></td>
   </tr>
 </table>
+
+**🔥 连续贡献 & 活跃时段**
 
 <table>
   <tr>
     <td><img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" /></td>
-    <td><img src="./assets/productive-time.svg" alt="productive time" /></td>
+    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="productive time" /></td>
   </tr>
 </table>
+
+**📉 活动趋势图**
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="activity graph" />
@@ -104,12 +114,22 @@
 <summary><b>🐍 Contribution Animation</b></summary>
 <br/>
 
+**🐍 贡献蛇动画**
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" width="100%" alt="snake" />
 </div>
 
+**🌈 3D 贡献图**
+
 <div align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D" />
+</div>
+
+**📅 贡献日历热力图**
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/tokyonight/kaduoxzero" width="100%" alt="calendar heatmap" />
 </div>
 
 </details>
