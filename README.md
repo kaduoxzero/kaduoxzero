@@ -1,150 +1,98 @@
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=kaduoxzero&fontSize=56&fontAlignY=36&desc=Java%20Backend%20%7C%20Microservices%20%7C%20Distributed%20Systems%20%7C%20AI%20Engineering&descSize=18&descAlignY=58&animation=fadeIn&color=0:0D1117,45:1F6FEB,100:8A2BE2&fontColor=FFFFFF" alt="kaduoxzero profile header" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=Java+Backend+%2B+Spring+Cloud+Alibaba;Microservices+%2B+Middleware+Integration;RAG+%2B+Agent+Workflow+%2B+AI+Engineering;Keep+building.+Keep+shipping." alt="typing svg" />
-
-<p>
-  <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
-  <img src="https://img.shields.io/github/followers/kaduoxzero?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/kaduoxzero?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
-  <img src="https://komarev.com/ghpvc/?username=kaduoxzero&style=for-the-badge&color=blueviolet" alt="Profile views" />
-</p>
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=1EF79A&center=true&vCenter=true&width=600&lines=Hi+there+%F0%9F%91%8B;I'm+kaduoxzero;Java+Backend+Engineer" alt="typing" />
 </div>
 
----
+<img src="https://media.giphy.com/media/SWoSkN6DxTszq/giphy.gif" width="200" align="left" alt="coding gif">
 
-## About me
-
-围绕 **Java 后端开发、微服务架构、分布式中间件和 AI 工程化** 做项目实践，偏向把业务系统从接口、缓存、消息、检索、可观测性到前端联调整体跑通。
-
-关注方向：
-
-- **后端工程** — Java 21、Spring Boot 3、Spring Cloud Alibaba、MyBatis-Plus、权限控制与业务分层
-- **微服务与分布式** — Nacos、Gateway、Sentinel、Seata、RabbitMQ、Redis、Elasticsearch
-- **工程化与联调** — Docker Compose、Maven 多模块、Prometheus/Grafana、Zipkin、前后端联调
-- **AI 工程化** — DeepSeek API、Spring AI、RAG、向量检索、知识库问答、Agent 流程编排
-
----
-
-## 技术栈
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,mybatis&theme=dark&perline=6" alt="Backend" />
-</p>
-<p align="center"><sub><b>Backend</b></sub></p>
+- 🔭 I'm currently working on **微服务电商系统 & AI 风控平台**
+- 🌱 I'm currently learning **Spring AI、LangGraph、RAG**
+- 💬 Ask me about **Java、Spring Cloud、分布式中间件**
+- 📫 How to reach me: **liulizhi64@gmail.com**
+- ⚡ Fun fact: **Keep building. Keep shipping.**
 
 <br />
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,redis,rabbitmq,elasticsearch,nacos&theme=dark&perline=6" alt="Middleware" />
-</p>
-<p align="center"><sub><b>Middleware</b></sub></p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6" alt="langs" />
+</div>
 
-<br />
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&row=1&column=7&no-frame=true" alt="trophy" />
+</div>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vue,vite,typescript,threejs&theme=dark&perline=6" alt="Frontend" />
-</p>
-<p align="center"><sub><b>Frontend</b></sub></p>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" />
+</div>
 
-<br />
+<div align="center">
+  <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:liulizhi64@gmail.com"><img src="https://img.shields.io/badge/Email-liulizhi64@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</div>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,githubactions,prometheus,grafana,nginx,linux&theme=dark&perline=6" alt="DevOps & AI" />
-</p>
-<p align="center"><sub><b>DevOps & AI</b></sub></p>
+<details>
+<summary><b>🚀 精选项目</b></summary>
 
----
-
-## 精选项目
-
-### 🚀 SpikeGuard — 微服务电商系统
-
+### SpikeGuard — 微服务电商系统
 面向商城与秒杀场景的微服务电商系统实践，重点覆盖网关鉴权、库存高并发、异步消息和全链路观测。
+**技术栈：** Java 21 · Spring Cloud Alibaba · Redis · RabbitMQ · Nacos · Sentinel · Seata · Vue 3 · Docker
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,docker,vue&theme=dark&perline=6" alt="SpikeGuard tech stack" />
-</p>
-
-### 🤖 SemiRisk — AI 风控引擎
-
+### SemiRisk — AI 风控引擎
 面向半导体供应链风险管理的 AI 智能监测平台，集成 RAG 知识库问答、向量检索和 AI 报告自动生成。
+**技术栈：** Java 21 · Spring Cloud Alibaba · Elasticsearch · DeepSeek API · LangGraph · Vue 3 · Three.js · Docker
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,elasticsearch,python,docker,vue,threejs&theme=dark&perline=7" alt="SemiRisk tech stack" />
-</p>
-
-### 🏠 YunLanHome — O2O 家政平台
-
+### YunLanHome — O2O 家政平台
 分布式业务系统实践，重点练习高并发业务、分布式一致性和微服务边界设计。
+**技术栈：** Java 21 · Spring Cloud Alibaba · Redis Geo · RabbitMQ · Seata · Vue 3
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,vue&theme=dark&perline=5" alt="YunLanHome tech stack" />
-</p>
-
-### 📚 WebAI-Tlias — 教务管理系统
-
+### WebAI-Tlias — 教务管理系统
 基于 Spring Boot + Vue 3 的前后端分离实践，练习 JWT 登录、CRUD、文件上传和操作日志。
+**技术栈：** Spring Boot · Vue 3 · Element Plus · JWT · MyBatis · OSS
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,vue,typescript&theme=dark&perline=4" alt="WebAI-Tlias tech stack" />
-</p>
+</details>
 
----
+<details>
+<summary><b>🛠 技术栈</b></summary>
 
-## GitHub 数据总览
+| 领域 | 核心技术 |
+|------|----------|
+| **Backend** | Java 21 · Spring Boot 3 · Spring Cloud Alibaba · Spring Security · MyBatis-Plus · JWT / RBAC |
+| **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
+| **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios |
+| **DevOps & AI** | Docker · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
 
-<div align="center">
+</details>
 
-<table>
-  <tr>
-    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="stats" /></td>
-    <td width="50%"><img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" /></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos per language" /></td>
-    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="productive time" /></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=tokyonight" alt="most commit language" /></td>
-    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile details" /></td>
-  </tr>
-</table>
+<details>
+<summary><b>📊 编码习惯</b></summary>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="kaduoxzero GitHub activity graph" />
+**活跃时段**
 
-</div>
+```text
+🌅 上午    少量提交
+🌆 下午    主要工作时间
+🌃 晚上    高频提交时段
+🌙 深夜    偶尔加班
+```
 
----
+**📅 每周提交分布**
 
-## 动态贡献图
+```text
+周一 - 周五    工作日稳定提交
+周末           学习和个人项目
+```
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
-    <img width="100%" alt="kaduoxzero contribution grid snake animation" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
+</details>
 
-<br />
+<details>
+<summary><b>🐍 动态贡献图</b></summary>
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="kaduoxzero 3D Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" width="100%" alt="snake" />
 </div>
-
----
-
-## 联系方式
-
-GitHub 公开主页：[@kaduoxzero](https://github.com/kaduoxzero)
-
-Email：liulizhi64@gmail.com
 
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:8A2BE2,55:1F6FEB,100:0D1117" alt="footer" />
-
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D" />
 </div>
+
+</details>
