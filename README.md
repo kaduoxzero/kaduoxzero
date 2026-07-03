@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=kaduoxzero&fontSize=56&fontAlignY=36&desc=Java%20Backend%20%7C%20Microservices%20%7C%20Distributed%20Systems%20%7C%20AI%20Engineering&descSize=18&descAlignY=58&animation=fadeIn&color=0:0D1117,45:1F6FEB,100:8A2BE2&fontColor=FFFFFF" alt="kaduoxzero profile header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=Java+Backend+%2B+Spring+Cloud+Alibaba;SpikeGuard+Microservices+%2B+Distributed+Transactions;RAG+%2B+Agent+Workflow+%2B+AI+Engineering;Keep+building.+Keep+shipping." alt="typing svg" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=Java+Backend+%2B+Spring+Cloud+Alibaba;Microservices+%2B+Middleware+Integration;RAG+%2B+Agent+Workflow+%2B+AI+Engineering;Keep+building.+Keep+shipping." alt="typing svg" />
 
 <p>
   <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
@@ -33,7 +33,7 @@
 
 围绕 **Java 后端开发、微服务架构、分布式中间件和 AI 工程化** 做项目实践，偏向把业务系统从接口、缓存、消息、检索、可观测性到前端联调整体跑通。
 
-当前主页展示 `kaduoxzero` 账号下的公开项目、工程实践方向和 GitHub 动态数据。
+当前主页展示 `kaduoxzero` 账号下的公开仓库、重点项目实践和 GitHub 动态数据。第三方图表只接入公开仓库，避免私有仓库或未公开项目导致空白数据。
 
 关注方向：
 
@@ -49,7 +49,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/kaduoxzero/SpikeGuard">SpikeGuard</a></h3>
+      <h3>SpikeGuard <sub>本地/私有实践</sub></h3>
       <p>面向商城与秒杀场景的 <strong>微服务电商系统实践</strong>，重点覆盖网关鉴权、商品与库存、订单交易、优惠券、秒杀限流、异步消息和可观测性。</p>
       <ul>
         <li>基于 Spring Cloud Alibaba 拆分网关、认证、商品、订单、交易、营销等后端模块。</li>
@@ -99,6 +99,52 @@
 
 ---
 
+## 公开仓库矩阵
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>核心公开项目</h3>
+      <p>
+        <a href="https://github.com/kaduoxzero/SemiRisk">SemiRisk</a> ·
+        <a href="https://github.com/kaduoxzero/YunLanHome">YunLanHome</a> ·
+        <a href="https://github.com/kaduoxzero/WebAI-Tlias">WebAI-Tlias</a> ·
+        <a href="https://github.com/kaduoxzero/kaduoxzero">kaduoxzero</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Jzo2o 微服务拆分</h3>
+      <p>
+        <a href="https://github.com/kaduoxzero/jzo2o-api">jzo2o-api</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-gateway">jzo2o-gateway</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-customer">jzo2o-customer</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-market">jzo2o-market</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-order">jzo2o-order</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-trade">jzo2o-trade</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-publics">jzo2o-publics</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>基础设施与前端</h3>
+      <p>
+        <a href="https://github.com/kaduoxzero/jzo2o-foundations">jzo2o-foundations</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-framework">jzo2o-framework</a> ·
+        <a href="https://github.com/kaduoxzero/jzo2o-front">jzo2o-front</a> ·
+        <a href="https://github.com/kaduoxzero/obsidian-i18n-resources">obsidian-i18n-resources</a> ·
+        <a href="https://github.com/kaduoxzero/obsidian-translations">obsidian-translations</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>公开数据接入</h3>
+      <p>Star History 接入 SemiRisk、YunLanHome、WebAI-Tlias、jzo2o-front；GitHub Summary Cards 接入账号公开贡献数据。</p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 技术栈聚焦
 
 <table>
@@ -129,12 +175,12 @@
 ## GitHub 数据总览
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" alt="kaduoxzero GitHub stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="kaduoxzero GitHub stats" />
   <img width="49%" src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="kaduoxzero GitHub streak" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="kaduoxzero top languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos per language" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="kaduoxzero productive time" />
 </div>
 
@@ -143,7 +189,6 @@
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos per language" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=tokyonight" alt="most commit language" />
 </div>
 
@@ -179,23 +224,17 @@
 
 ---
 
-## 成就与 Star 趋势
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" width="100%" alt="kaduoxzero GitHub Profile Trophy" />
-</div>
-
-<br />
+## 公开 Star 趋势
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SpikeGuard,kaduoxzero/SemiRisk,kaduoxzero/YunLanHome&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SpikeGuard,kaduoxzero/SemiRisk,kaduoxzero/YunLanHome&type=Date" />
-    <img width="100%" alt="Star History Chart" src="https://api.star-history.com/svg?repos=kaduoxzero/SpikeGuard,kaduoxzero/SemiRisk,kaduoxzero/YunLanHome&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date" />
+    <img width="100%" alt="Star History Chart" src="https://api.star-history.com/svg?repos=kaduoxzero/SemiRisk,kaduoxzero/YunLanHome,kaduoxzero/WebAI-Tlias,kaduoxzero/jzo2o-front&type=Date" />
   </picture>
 </div>
 
-> 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成。
+> 所有统计图和动态 SVG 均读取 GitHub 公开数据或由 GitHub Actions 自动生成；私有仓库不会接入第三方公开统计图。
 
 ---
 
