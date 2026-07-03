@@ -90,7 +90,7 @@
   </tr>
 </table>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyonight&hide_border=true&area=true" alt="kaduoxzero GitHub activity graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="kaduoxzero GitHub activity graph" />
 
 </div>
 
