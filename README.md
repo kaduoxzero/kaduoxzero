@@ -11,14 +11,6 @@
   <img src="https://komarev.com/ghpvc/?username=kaduoxzero&style=for-the-badge&color=blueviolet" alt="Profile views" />
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring%20Cloud-Alibaba-00A1E9?style=for-the-badge&logo=alibabacloud&logoColor=white" alt="Spring Cloud Alibaba" />
-  <img src="https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue 3" />
-  <img src="https://img.shields.io/badge/Docker-Project%20Practice-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
 </div>
 
 ---
@@ -36,38 +28,69 @@
 
 ---
 
-## 🚀 精选项目
+## 技术栈
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,mybatis&theme=dark&perline=6" alt="Backend" />
+</p>
+<p align="center"><sub><b>Backend</b></sub></p>
+
+<br />
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgresql,redis,rabbitmq,elasticsearch,nacos&theme=dark&perline=6" alt="Middleware" />
+</p>
+<p align="center"><sub><b>Middleware</b></sub></p>
+
+<br />
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vue,vite,typescript,threejs&theme=dark&perline=6" alt="Frontend" />
+</p>
+<p align="center"><sub><b>Frontend</b></sub></p>
+
+<br />
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,githubactions,prometheus,grafana,nginx,linux&theme=dark&perline=6" alt="DevOps & AI" />
+</p>
+<p align="center"><sub><b>DevOps & AI</b></sub></p>
+
+---
+
+## 精选项目
 
 ### 🚀 SpikeGuard — 微服务电商系统
 
 面向商城与秒杀场景的微服务电商系统实践，重点覆盖网关鉴权、库存高并发、异步消息和全链路观测。
-**技术栈：** Java 21 · Spring Cloud Alibaba · Redis · RabbitMQ · Nacos · Sentinel · Seata · Vue 3 · Docker
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,docker,vue&theme=dark&perline=6" alt="SpikeGuard tech stack" />
+</p>
 
 ### 🤖 SemiRisk — AI 风控引擎
 
 面向半导体供应链风险管理的 AI 智能监测平台，集成 RAG 知识库问答、向量检索和 AI 报告自动生成。
-**技术栈：** Java 21 · Spring Cloud Alibaba · Elasticsearch · DeepSeek API · LangGraph · Vue 3 · Three.js · Docker
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,elasticsearch,python,docker,vue,threejs&theme=dark&perline=7" alt="SemiRisk tech stack" />
+</p>
 
 ### 🏠 YunLanHome — O2O 家政平台
 
 分布式业务系统实践，重点练习高并发业务、分布式一致性和微服务边界设计。
-**技术栈：** Java 21 · Spring Cloud Alibaba · Redis Geo · RabbitMQ · Seata · Vue 3
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,vue&theme=dark&perline=5" alt="YunLanHome tech stack" />
+</p>
 
 ### 📚 WebAI-Tlias — 教务管理系统
 
 基于 Spring Boot + Vue 3 的前后端分离实践，练习 JWT 登录、CRUD、文件上传和操作日志。
-**技术栈：** Spring Boot · Vue 3 · Element Plus · JWT · MyBatis · OSS
 
----
-
-## 技术栈聚焦
-
-| 领域 | 核心技术 |
-|------|----------|
-| **Backend** | Java 21 · Spring Boot 3 · Spring Cloud Alibaba · Spring Security · MyBatis-Plus · JWT / RBAC · REST API |
-| **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
-| **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios · Vue Router |
-| **DevOps & AI** | Docker · Docker Compose · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,vue,typescript&theme=dark&perline=4" alt="WebAI-Tlias tech stack" />
+</p>
 
 ---
 
