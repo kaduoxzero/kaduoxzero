@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=1EF79A&center=true&vCenter=true&width=600&lines=Hi+there+%F0%9F%91%8B;I'm+kaduoxzero;Java+Backend+Engineer" alt="typing" />
 </div>
 
-<img src="https://media.giphy.com/media/SWoSkN6DxTszq/giphy.gif" width="200" align="left" alt="coding gif">
+<div align="left" style="font-size:80px">👨‍💻</div>
 
 - 🔭 I'm currently working on **微服务电商系统 & AI 风控平台**
 - 🌱 I'm currently learning **Spring AI、LangGraph、RAG**
@@ -13,12 +13,11 @@
 <br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kaduoxzero&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" alt="stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaduoxzero&theme=tokyonight&row=1&column=7&no-frame=true" alt="trophy" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaduoxzero&theme=tokyonight&layout=compact&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="langs" />
 </div>
 
 <div align="center">
