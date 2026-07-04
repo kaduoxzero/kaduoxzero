@@ -115,7 +115,7 @@
 ### 📈 Full Profile Details
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=outrun" alt="profile-details"/>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=outrun" alt="profile-details"/>
 </p>
 
 <br/>
@@ -198,6 +198,8 @@
   <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
 </div>
 
+### 💻 GitHub Metrics
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/github-metrics.svg" alt="github-metrics" width="100%"/>
 </div>
@@ -216,4 +218,3 @@
   <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Coffee-orange?style=flat-square" alt="powered by coffee"/>
   <img src="https://img.shields.io/badge/Built%20with-Java%2021-blue?style=flat-square" alt="built with java"/>
 </div>
-
