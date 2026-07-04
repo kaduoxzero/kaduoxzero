@@ -123,13 +123,11 @@ const kaduoxzero = {
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" alt="productive-time"/>
 </div>
 
-<details>
-<summary><b>📈 Full Profile Details</b></summary>
-<br/>
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details"/>
-</div>
-</details>
+### 📈 Full Profile Details
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details" />
+</p>
 
 <br/>
 
@@ -196,22 +194,17 @@ const kaduoxzero = {
 
 <br/>
 
-<details>
-<summary><b>🌍 3D Contribution Calendar</b></summary>
+### 🌍 3D Contribution Calendar
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
+</p>
+
 <br/>
+
 <div align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3d-contrib-night"/>
+  <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
 </div>
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib-rainbow"/>
-</div>
-<div align="center">
-  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3d-contrib-season-animate"/>
-</div>
-<div align="center">
-  <img src="profile-3d-contrib/profile-gitblock.svg" alt="3d-contrib-gitblock"/>
-</div>
-</details>
 
 <!--
 <details>
@@ -237,7 +230,3 @@ const kaduoxzero = {
   <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Coffee-orange?style=flat-square" alt="powered by coffee"/>
   <img src="https://img.shields.io/badge/Built%20with-Java%2021-blue?style=flat-square" alt="built with java"/>
 </div>
-
-> 💡 **GitHub Metrics 需要配置 classic PAT**  
-> 请在仓库 Settings → Secrets → Actions 中添加 `METRICS_TOKEN`（需要 `repo` + `read:user` 权限）  
-> 然后取消注释 README 中的 Metrics 区域并重新触发 workflow
