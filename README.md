@@ -119,13 +119,11 @@
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" alt="productive-time"/>
 </div>
 
-<details>
-<summary><b>📈 Full Profile Details</b></summary>
-<br/>
-<div align="center">
+### 📈 Full Profile Details
+
+<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details"/>
-</div>
-</details>
+</p>
 
 <br/>
 
@@ -190,24 +188,11 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyo-night&hide_border=true&border_radius=10&area=true" alt="activity-graph"/>
 </div>
 
-<br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/snake.svg" alt="snake-animation"/>
-</div>
+### 🌍 3D Contribution Calendar
 
-<br/>
-
-
-<details>
-<summary><b>🌍 3D Contribution Calendar</b></summary>
-<br/>
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3d-contrib-night"/>
-</div>
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib-rainbow"/>
-</div>
-</details>
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
+</p>
 
 <br/>
 
