@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
-
 permissions:
   contents: write
 
@@ -31,7 +26,7 @@ jobs:
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: generate 3d contribution graph"
+          commit_message: "chore: generate 3d contribution graph [skip ci]"
           commit_user_name: github-actions[bot]
           commit_user_email: ${{ secrets.GIT_EMAIL }}
           file_pattern: profile-3d-contrib/*.svg
