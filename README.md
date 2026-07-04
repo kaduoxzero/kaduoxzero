@@ -64,7 +64,7 @@
 
 <!--  TOP codersrank для обновления картинки нужно обновить профиль на странице https://profile.codersrank.io/user/kaduoxzero-->
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-compact" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=merko" />
 <!--  2d history skills для обновления картинки нужно обновить профиль на странице https://profile.codersrank.io/user/kaduoxzero-->
 <img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=kaduoxzero&show-other-skills=true" width="auto"></img>
 
