@@ -19,43 +19,29 @@
 
 ---
 
-<!-- ==================== JS CODE BLOCK SELF-INTRO ==================== -->
+<!-- ==================== ABOUT ME ==================== -->
 <div align="center">
   <h2>
     <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+About+Me&fontSize=28&height=50" />
   </h2>
 </div>
 
-```javascript
-const kaduoxzero = {
-  name: "kaduoxzero",
-  role: "Backend Engineer & Open Source Enthusiast",
+## 👨‍💻 About Me
 
-  code: ["Java", "Spring Boot", "Python", "TypeScript", "SQL"],
+**Name:** kaduoxzero
+**Role:** Backend Engineer & Open Source Enthusiast
 
-  askMeAbout: [
-    "⚡ High-concurrency system design",
-    "🔥 Microservices & distributed architecture",
-    "🧠 Seckill / flash-sale optimization",
-    "🛡️ Risk control & AI-powered decisions",
-  ],
+**Tech Stack:** Java, Spring Boot, Python, TypeScript, SQL
 
-  technologies: {
-    backend:    ["Java 21", "Spring Boot 3", "Spring Cloud Alibaba", "Spring Security", "MyBatis-Plus"],
-    middleware: ["Redis", "RabbitMQ", "Elasticsearch", "Nacos", "Sentinel", "Seata"],
-    database:   ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
-    frontend:   ["Vue 3", "Vite", "TypeScript", "Element Plus", "ECharts"],
-    devOps:     ["Docker", "GitHub Actions", "Prometheus", "Grafana", "Zipkin"],
-    ai:         ["Python", "FastAPI", "LangGraph", "DeepSeek API", "Spring AI", "RAG"],
-  },
+**Focus Areas:**
+- ⚡ High-concurrency system design
+- 🔥 Microservices & distributed architecture
+- 🧠 Seckill / flash-sale optimization
+- 🛡️ Risk control & AI-powered decisions
 
-  architecture: ["Microservices", "Event-Driven", "CQRS", "DDD", "Saga Pattern"],
+**Current Focus:** SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine
 
-  currentFocus: "SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine",
-
-  funFact: "☕ I debug with coffee and deploy with confidence.",
-};
-```
+**Fun Fact:** ☕ I debug with coffee and deploy with confidence.
 
 ---
 
@@ -196,11 +182,15 @@ const kaduoxzero = {
 ### 🌍 3D Contribution Calendar
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3d-contrib-night"/>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
 </p>
 
+<br/>
+
+### 🐍 Contribution Snake Animation
+
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 <br/>
