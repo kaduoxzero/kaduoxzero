@@ -34,14 +34,14 @@
 **Tech Stack:** Java, Spring Boot, Python, TypeScript, SQL
 
 **Focus Areas:**
-- �?High-concurrency system design
+- ⚡ High-concurrency system design
 - 🔥 Microservices & distributed architecture
 - 🧠 Seckill / flash-sale optimization
-- 🛡�?Risk control & AI-powered decisions
+- 🛡️ Risk control & AI-powered decisions
 
-**Current Focus:** SpikeGuard �?Seckill E-Commerce Platform & SemiRisk AI Risk Engine
+**Current Focus:** SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine
 
-**Fun Fact:** �?I debug with coffee and deploy with confidence.
+**Fun Fact:** ☕ I debug with coffee and deploy with confidence.
 
 ---
 
@@ -138,7 +138,7 @@
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡�?SpikeGuard</h3>
+      <h3 align="center">🛡️ SpikeGuard</h3>
       <p align="center">
         <a href="https://github.com/kaduoxzero/SpikeGuard">
           <img src="https://img.shields.io/badge/SpikeGuard-Seckill_Platform-0e75b6?style=for-the-badge&logo=spring&logoColor=white" alt="spikeguard"/>
@@ -198,7 +198,7 @@
   <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
 </div>
 
-### 💻 GitHub Metrics
+### 📊 GitHub Metrics
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/github-metrics.svg" alt="github-metrics" width="100%"/>
