@@ -192,9 +192,6 @@ const kaduoxzero = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyo-night&hide_border=true&border_radius=10&area=true" alt="activity-graph"/>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/snake.svg" alt="snake-animation"/>
-</div>
 
 ### 🌍 3D Contribution Calendar
 
