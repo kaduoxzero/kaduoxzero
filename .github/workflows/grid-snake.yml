@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 permissions:
   contents: write
@@ -15,8 +19,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v4
-
       - name: Generate GitHub contribution grid snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,13 +27,12 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Copy snake SVG to repo root
-        run: cp dist/github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
-
-      - name: Commit and push
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email github-actions[bot]@users.noreply.github.com
-          git add github-contribution-grid-snake.svg
-          git diff --staged --quiet || git commit -m "chore: update snake animation [skip ci]"
-          git push
+      - name: Push snake animation to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          user_name: github-actions[bot]
+          user_email: ${{ secrets.GIT_EMAIL }}
+          commit_message: "chore: generate contribution snake"
