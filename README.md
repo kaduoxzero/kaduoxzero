@@ -188,6 +188,15 @@
 <br/>
 
 
+
+### 🐍 Contribution Snake Animation
+
+<p align="center">
+  <img src="./github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+<br/>
+
 <div align="center">
   <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
 </div>
