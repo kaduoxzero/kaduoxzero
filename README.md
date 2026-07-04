@@ -189,11 +189,6 @@
 </div>
 
 <br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/snake.svg" alt="snake-animation"/>
-</div>
-
-<br/>
 
 
 ### 🌍 3D Contribution Calendar
