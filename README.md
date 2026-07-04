@@ -1,6 +1,6 @@
 <!-- ==================== ANIMATED HEADER ==================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,3,5,8,10,13,16,18,20&height=260&section=header&text=Hi%20there%2C%20I'm%20kaduoxzero&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Java%20Enthusiast%20%7C%20Open%20Source&descAlignY=58&descSize=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4,5,6,7,8&height=260&section=header&text=Hi%20there%2C%20I'm%20kaduoxzero&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Java%20Enthusiast%20%7C%20Open%20Source&descAlignY=58&descSize=18" width="100%" />
 </p>
 
 <!-- ==================== TYPING SVG + CODING GIF ==================== -->
@@ -210,7 +210,7 @@
 
 <!-- ==================== FOOTER ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,3,5,8,10,13,16,18,20&height=120&section=footer&text=Thanks%20for%20visiting!%20%F0%9F%91%8B&fontSize=20&fontColor=fff&animation=fadeIn&fontAlignY=65" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4,5,6,7,8&height=120&section=footer&text=Thanks%20for%20visiting!%20%F0%9F%91%8B&fontSize=20&fontColor=fff&animation=fadeIn&fontAlignY=65" width="100%"/>
 </div>
 
 <div align="center">
