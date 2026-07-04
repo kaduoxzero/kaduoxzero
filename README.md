@@ -1,14 +1,28 @@
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=%2300E5FF&size=32&center=true&width=900&lines=Hi+There+%F0%9F%91%8B+I'm+kaduoxzero;Backend+Engineer+%7C+Java+Enthusiast;Building+SpikeGuard+%F0%9F%9A%80" alt="typing" />
-  </a>
-</h1>
+<!-- ==================== ANIMATED HEADER ==================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=250&section=header&text=kaduoxzero&fontSize=80&animation=fadeIn&fontColor=fff&desc=Backend%20Engineer%20%7C%20Java%20Enthusiast&descSize=20&descAnimation=fadeIn" width="100%" />
+</p>
 
+<!-- ==================== TYPING SVG ==================== -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=%E2%9A%A1+Hi+There!+I'm+kaduoxzero;%F0%9F%9A%80+Backend+Engineer+%7C+Java+Enthusiast;%F0%9F%94%A5+Building+SpikeGuard+%E2%80%94+Seckill+E-Commerce+Platform;%F0%9F%A7%A0+High-Concurrency+%7C+Microservices+%7C+Distributed+Systems;%E2%98%95+Java+%C2%B7+Spring+Boot+%C2%B7+Redis+%C2%B7+RabbitMQ+%C2%B7+Docker" alt="typing" />
+  </a>
+</p>
+
+<!-- ==================== PROFILE VIEWS COUNTER ==================== -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kaduoxzero&style=for-the-badge&color=0e75b6&label=Profile+Views" alt="profile views" />
+</p>
+
+<!-- ==================== ABOUT ME ==================== -->
 <p align="center">
   <samp>
     A backend engineer passionate about <em>high-concurrency systems</em> and <em>microservices</em>.
-    <br/> Currently building <strong>SpikeGuard</strong> — a seckill e-commerce platform.
-    <br/> Java · Spring Boot · Redis · RabbitMQ · PostgreSQL · Docker
+    <br/>
+    Currently building <strong>SpikeGuard</strong> &#x2014; a seckill e-commerce platform.
+    <br/>
+    Java &#183; Spring Boot &#183; Redis &#183; RabbitMQ &#183; PostgreSQL &#183; Docker
   </samp>
 </p>
 
@@ -19,70 +33,94 @@
 
 <br/>
 
+<!-- ==================== ANIMATED TECH ICONS (skillicons) ==================== -->
+<h2 align="center">&#x1F6E0;&#xFE0F; Tech Stack</h2>
+
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="50" width="50" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="50" width="50" alt="Spring" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="50" width="50" alt="Redis" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" height="50" width="50" alt="RabbitMQ" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="50" width="50" alt="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="50" width="50" alt="MySQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="50" width="50" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="50" width="50" alt="Vue" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="50" width="50" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" width="50" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" height="50" width="50" alt="Elasticsearch" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="50" width="50" alt="Nginx" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,postgresql,mysql,docker,nginx,linux,git,python,vscode,maven,html,css,vue,typescript,elasticsearch&theme=dark&perline=9" alt="tech stack" />
+  </a>
 </p>
 
 <details>
-<summary><b>🚀 Featured Projects</b></summary>
+<summary><b>&#x1F4CA; Detailed Tech Stack</b></summary>
 <br/>
 
-### SpikeGuard — 微服务电商系统
-面向商城与秒杀场景的微服务电商系统实践，重点覆盖网关鉴权、库存高并发、异步消息和全链路观测。
-
-| 模块 | 技术栈 | 说明 |
-|------|--------|------|
-| Gateway | Spring Cloud Gateway | API 网关、限流、鉴权 |
-| Seckill | Spring Boot + Redis + Lua | 库存预扣、防超卖 |
-| Order | Spring Boot + RabbitMQ | 异步下单、削峰填谷 |
-| Risk | LangGraph + Python AI | AI 风控决策引擎 |
-| Frontend | Vue 3 + TypeScript | 管理后台 + 商城前端 |
-
-### SemiRisk — AI 风控引擎
-面向半导体供应链风险管理的 AI 智能监测平台，集成 RAG 知识库问答、向量检索和 AI 报告自动生成。
-**技术栈：** Java 21 · Spring Cloud Alibaba · Elasticsearch · DeepSeek API · LangGraph · Vue 3 · Three.js · Docker
-
-### YunLanHome — O2O 家政平台
-分布式业务系统实践，重点练习高并发业务、分布式一致性和微服务边界设计。
-**技术栈：** Java 21 · Spring Cloud Alibaba · Redis Geo · RabbitMQ · Seata · Vue 3
-
-### WebAI-Tlias — 教务管理系统
-基于 Spring Boot + Vue 3 的前后端分离实践，练习 JWT 登录、CRUD、文件上传和操作日志。
-**技术栈：** Spring Boot · Vue 3 · Element Plus · JWT · MyBatis · OSS
+| Domain | Core Technologies |
+|--------|-------------------|
+| **Backend** | Java 21 &#183; Spring Boot 3 &#183; Spring Cloud Alibaba &#183; Spring Security &#183; MyBatis-Plus &#183; JWT / RBAC |
+| **Middleware** | PostgreSQL &#183; MySQL &#183; Redis &#183; RabbitMQ &#183; Elasticsearch &#183; MinIO &#183; Nacos &#183; Sentinel &#183; Seata |
+| **Frontend** | Vue 3 &#183; Vite &#183; Element Plus &#183; Vant &#183; ECharts &#183; Three.js &#183; Axios |
+| **DevOps & AI** | Docker &#183; GitHub Actions &#183; Prometheus &#183; Grafana &#183; Zipkin &#183; Kibana &#183; DeepSeek API &#183; Spring AI &#183; RAG |
 
 </details>
 
-<details>
-<summary><b>🛠️ Tech Stack</b></summary>
 <br/>
 
-| 领域 | 核心技术 |
-|------|----------|
-| **Backend** | Java 21 · Spring Boot 3 · Spring Cloud Alibaba · Spring Security · MyBatis-Plus · JWT / RBAC |
-| **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
-| **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios |
-| **DevOps & AI** | Docker · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
+<!-- ==================== FEATURED PROJECTS ==================== -->
+<h2 align="center">&#x1F680; Featured Projects</h2>
 
-</details>
+<table align="center">
+  <tr>
+    <td width="50%">
+      <h3 align="center">&#x1F6E1;&#xFE0F; SpikeGuard</h3>
+      <p align="center">
+        <a href="https://github.com/kaduoxzero/SpikeGuard">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" width="100%" alt="spikeguard" />
+        </a>
+      </p>
+      <p align="center">
+        Microservice e-commerce for seckill scenarios.<br/>
+        <em>Gateway &#183; Seckill &#183; Order &#183; Risk &#183; Frontend</em><br/>
+        <code>Java 21</code> <code>Spring Cloud</code> <code>Redis</code> <code>RabbitMQ</code> <code>Vue 3</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">&#x1F9E0; SemiRisk</h3>
+      <p align="center">
+        <a href="https://github.com/kaduoxzero/SemiRisk">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" width="100%" alt="semirisk" />
+        </a>
+      </p>
+      <p align="center">
+        AI-powered semiconductor supply chain risk monitoring.<br/>
+        <em>RAG &#183; Vector Search &#183; AI Report Generation</em><br/>
+        <code>Java 21</code> <code>Elasticsearch</code> <code>LangGraph</code> <code>DeepSeek</code> <code>Vue 3</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">&#x1F3E0; YunLanHome</h3>
+      <p align="center">
+        O2O home service platform.<br/>
+        <em>High-concurrency business &#183; Distributed consistency</em><br/>
+        <code>Java 21</code> <code>Spring Cloud</code> <code>Redis Geo</code> <code>Seata</code> <code>Vue 3</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">&#x1F393; WebAI-Tlias</h3>
+      <p align="center">
+        Education admin system.<br/>
+        <em>JWT &#183; CRUD &#183; File Upload &#183; Operation Log</em><br/>
+        <code>Spring Boot</code> <code>Vue 3</code> <code>Element Plus</code> <code>MyBatis</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<details>
-<summary><b>📊 GitHub Statistics</b></summary>
 <br/>
 
-**📈 数据总览** — 总星标 / 年度提交 / 贡献仓库数
+<!-- ==================== GITHUB STATISTICS ==================== -->
+<h2 align="center">&#x1F4CA; GitHub Statistics</h2>
 
-<table>
+<!-- Streak Stats with fire animation -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true&fire=FF6B35&ring=FF6B35&dates=FFFFFF&background=0d1117" alt="streak stats" />
+</p>
+
+<!-- Profile Summary Cards -->
+<table align="center">
   <tr>
     <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile details" /></td>
     <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="stats" /></td>
@@ -93,43 +131,44 @@
   </tr>
 </table>
 
-**🔥 连续贡献 & 活跃时段**
-
-<table>
-  <tr>
-    <td><img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true" alt="streak" /></td>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="productive time" /></td>
-  </tr>
-</table>
-
-**📉 活动趋势图**
-
-<div align="center">
+<!-- Activity Graph with animation -->
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="activity graph" />
-</div>
+</p>
 
-</details>
+<!-- Productive Time -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="productive time" />
+</p>
 
-<details>
-<summary><b>🐍 Contribution Animation</b></summary>
 <br/>
 
-**🐍 贡献蛇动画**
+<!-- ==================== CONTRIBUTION ANIMATIONS ==================== -->
+<h2 align="center">&#x1F40D; Contribution Animations</h2>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" width="100%" alt="snake" />
-</div>
+<!-- Snake Animation -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
+</p>
 
-**🌈 3D 贡献图**
+<!-- 3D Contribution -->
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution" />
+</p>
 
-<div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D" />
-</div>
-
-**📅 贡献日历热力图**
-
-<div align="center">
+<!-- Calendar Heatmap -->
+<p align="center">
   <img src="https://ghchart.rshah.org/tokyonight/kaduoxzero" width="100%" alt="calendar heatmap" />
-</div>
+</p>
 
-</details>
+<br/>
+
+<!-- ==================== FOOTER ==================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer&animation=fadeIn" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=for-the-badge" alt="made with love" />
+  <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Java-blue?style=for-the-badge" alt="powered by java" />
+</p>
