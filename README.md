@@ -26,36 +26,32 @@
   </h2>
 </div>
 
-```javascript
-const kaduoxzero = {
-  name: "kaduoxzero",
-  role: "Backend Engineer & Open Source Enthusiast",
+## 👨‍💻 About Me
 
-  code: ["Java", "Spring Boot", "Python", "TypeScript", "SQL"],
+**Name:** kaduoxzero  
+**Role:** Backend Engineer & Open Source Enthusiast  
 
-  askMeAbout: [
-    "⚡ High-concurrency system design",
-    "🔥 Microservices & distributed architecture",
-    "🧠 Seckill / flash-sale optimization",
-    "🛡️ Risk control & AI-powered decisions",
-  ],
+**Tech Stack:** Java, Spring Boot, Python, TypeScript, SQL  
 
-  technologies: {
-    backend:    ["Java 21", "Spring Boot 3", "Spring Cloud Alibaba", "Spring Security", "MyBatis-Plus"],
-    middleware: ["Redis", "RabbitMQ", "Elasticsearch", "Nacos", "Sentinel", "Seata"],
-    database:   ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
-    frontend:   ["Vue 3", "Vite", "TypeScript", "Element Plus", "ECharts"],
-    devOps:     ["Docker", "GitHub Actions", "Prometheus", "Grafana", "Zipkin"],
-    ai:         ["Python", "FastAPI", "LangGraph", "DeepSeek API", "Spring AI", "RAG"],
-  },
+**Focus Areas:**
+- ⚡ High-concurrency system design
+- 🔥 Microservices & distributed architecture
+- 🍬 Seckill / flash-sale optimization
+- 🛡️ Risk control & AI-powered decisions
 
-  architecture: ["Microservices", "Event-Driven", "CQRS", "DDD", "Saga Pattern"],
+**Technologies:**
+- **Backend:** Java 21, Spring Boot 3, Spring Cloud Alibaba, Spring Security, MyBatis-Plus
+- **Middleware:** Redis, RabbitMQ, Elasticsearch, Nacos, Sentinel, Seata
+- **Database:** PostgreSQL, MySQL, Redis, Elasticsearch
+- **Frontend:** Vue 3, Vite, TypeScript, Element Plus, ECharts
+- **DevOps:** Docker, GitHub Actions, Prometheus, Grafana, Zipkin
+- **AI:** Python, FastAPI, LangGraph, DeepSeek API, Spring AI, RAG
 
-  currentFocus: "SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine",
+**Architecture Patterns:** Microservices, Event-Driven, CQRS, DDD, Saga Pattern
 
-  funFact: "☕ I debug with coffee and deploy with confidence.",
-};
-```
+**Current Focus:** SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine
+
+**Fun Fact:** ☕ I debug with coffee and deploy with confidence.
 
 ---
 
@@ -193,6 +189,12 @@ const kaduoxzero = {
 </div>
 
 <br/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/snake.svg" alt="snake-animation"/>
+</div>
+
+<br/>
+
 
 ### 🌍 3D Contribution Calendar
 
