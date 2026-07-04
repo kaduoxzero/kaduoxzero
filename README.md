@@ -22,7 +22,7 @@
 <!-- ==================== ABOUT ME ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=2,6,12&text=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+About+Me&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+About+Me&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
@@ -69,7 +69,7 @@
 <!-- ==================== TECH STACK ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=4,8,14&text=%F0%9F%9B%A0%EF%B8%8F+Tech+Stack&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%9B%A0%EF%B8%8F+Tech+Stack&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
@@ -98,7 +98,7 @@
 <!-- ==================== GITHUB STATISTICS ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=6,10,18&text=%F0%9F%93%8A+GitHub+Statistics&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%93%8A+GitHub+Statistics&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
@@ -131,7 +131,7 @@
 <!-- ==================== FEATURED PROJECTS ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=1,5,16&text=%F0%9F%9A%80+Featured+Projects&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%9A%80+Featured+Projects&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
@@ -173,7 +173,7 @@
 <!-- ==================== DYNAMIC CONTRIBUTION GRAPHS ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=3,7,11&text=%F0%9F%90%8D+Contribution+Graph&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%90%8D+Contribution+Graph&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
