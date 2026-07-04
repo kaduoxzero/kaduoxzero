@@ -190,7 +190,7 @@
 ### 🐍 Contribution Snake Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="./github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 <br/>
