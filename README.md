@@ -178,7 +178,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-light-light-light-light&hide_border=true&border_radius=10&area=true&t=1" alt="activity-graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-light-light-light-light-light&hide_border=true&border_radius=10&area=true&t=1" alt="activity-graph"/>
 </div>
 
 
