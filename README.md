@@ -26,32 +26,36 @@
   </h2>
 </div>
 
-## 👨‍💻 About Me
+```javascript
+const kaduoxzero = {
+  name: "kaduoxzero",
+  role: "Backend Engineer & Open Source Enthusiast",
 
-**Name:** kaduoxzero  
-**Role:** Backend Engineer & Open Source Enthusiast  
+  code: ["Java", "Spring Boot", "Python", "TypeScript", "SQL"],
 
-**Tech Stack:** Java, Spring Boot, Python, TypeScript, SQL  
+  askMeAbout: [
+    "⚡ High-concurrency system design",
+    "🔥 Microservices & distributed architecture",
+    "🧠 Seckill / flash-sale optimization",
+    "🛡️ Risk control & AI-powered decisions",
+  ],
 
-**Focus Areas:**
-- ⚡ High-concurrency system design
-- 🔥 Microservices & distributed architecture
-- 🍬 Seckill / flash-sale optimization
-- 🛡️ Risk control & AI-powered decisions
+  technologies: {
+    backend:    ["Java 21", "Spring Boot 3", "Spring Cloud Alibaba", "Spring Security", "MyBatis-Plus"],
+    middleware: ["Redis", "RabbitMQ", "Elasticsearch", "Nacos", "Sentinel", "Seata"],
+    database:   ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
+    frontend:   ["Vue 3", "Vite", "TypeScript", "Element Plus", "ECharts"],
+    devOps:     ["Docker", "GitHub Actions", "Prometheus", "Grafana", "Zipkin"],
+    ai:         ["Python", "FastAPI", "LangGraph", "DeepSeek API", "Spring AI", "RAG"],
+  },
 
-**Technologies:**
-- **Backend:** Java 21, Spring Boot 3, Spring Cloud Alibaba, Spring Security, MyBatis-Plus
-- **Middleware:** Redis, RabbitMQ, Elasticsearch, Nacos, Sentinel, Seata
-- **Database:** PostgreSQL, MySQL, Redis, Elasticsearch
-- **Frontend:** Vue 3, Vite, TypeScript, Element Plus, ECharts
-- **DevOps:** Docker, GitHub Actions, Prometheus, Grafana, Zipkin
-- **AI:** Python, FastAPI, LangGraph, DeepSeek API, Spring AI, RAG
+  architecture: ["Microservices", "Event-Driven", "CQRS", "DDD", "Saga Pattern"],
 
-**Architecture Patterns:** Microservices, Event-Driven, CQRS, DDD, Saga Pattern
+  currentFocus: "SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine",
 
-**Current Focus:** SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine
-
-**Fun Fact:** ☕ I debug with coffee and deploy with confidence.
+  funFact: "☕ I debug with coffee and deploy with confidence.",
+};
+```
 
 ---
 
@@ -191,12 +195,6 @@
 </div>
 
 <br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/snake.svg" alt="snake-animation"/>
-</div>
-
-<br/>
-
 
 <details>
 <summary><b>🌍 3D Contribution Calendar</b></summary>
@@ -207,13 +205,13 @@
 <div align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib-rainbow"/>
 </div>
-</details>
-
-<br/>
-
 <div align="center">
-  <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3d-contrib-season-animate"/>
 </div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-gitblock.svg" alt="3d-contrib-gitblock"/>
+</div>
+</details>
 
 <!--
 <details>
