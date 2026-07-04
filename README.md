@@ -81,9 +81,7 @@
 
 <br/>
 
-<details>
-<summary><b>📊 Detailed Tech Stack</b></summary>
-<br/>
+**📊 Detailed Tech Stack**
 
 | Domain | Core Technologies |
 |--------|-------------------|
@@ -92,7 +90,6 @@
 | **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios |
 | **DevOps & AI** | Docker · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
 
-</details>
 
 <br/>
 
@@ -188,7 +185,7 @@
 ### 🌍 3D Contribution Calendar
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
 </p>
 
 <br/>
@@ -201,15 +198,9 @@
   <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
 </div>
 
-<!--
-<details>
-<summary><b>💻 GitHub Metrics</b></summary>
-<br/>
 <div align="center">
-  <img src="github-metrics.svg" alt="github-metrics" width="100%"/>
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/github-metrics.svg" alt="github-metrics" width="100%"/>
 </div>
-</details>
--->
 
 <br/>
 
@@ -226,6 +217,3 @@
   <img src="https://img.shields.io/badge/Built%20with-Java%2021-blue?style=flat-square" alt="built with java"/>
 </div>
 
-> 💡 **GitHub Metrics 需要配置 classic PAT**  
-> 请在仓库 Settings → Secrets → Actions 中添加 `METRICS_TOKEN`（需要 `repo` + `read:user` 权限）  
-> 然后取消注释 README 中的 Metrics 区域并重新触发 workflow
