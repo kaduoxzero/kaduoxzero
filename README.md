@@ -1,109 +1,179 @@
 <!-- ==================== ANIMATED HEADER ==================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=250&section=header&text=kaduoxzero&fontSize=80&animation=fadeIn&fontColor=fff&desc=Backend%20Engineer%20%7C%20Java%20Enthusiast&descSize=20&descAnimation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=260&section=header&text=Hi%20there%2C%20I'm%20kaduoxzero&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Java%20Enthusiast%20%7C%20Open%20Source&descAlignY=58&descSize=18" width="100%" />
 </p>
 
-<!-- ==================== TYPING SVG ==================== -->
-<p align="center">
+<!-- ==================== TYPING SVG + CODING GIF ==================== -->
+<div align="center">
+  <img align="right" width="280" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="coding"/>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=%E2%9A%A1+Hi+There!+I'm+kaduoxzero;%F0%9F%9A%80+Backend+Engineer+%7C+Java+Enthusiast;%F0%9F%94%A5+Building+SpikeGuard+%E2%80%94+Seckill+E-Commerce+Platform;%F0%9F%A7%A0+High-Concurrency+%7C+Microservices+%7C+Distributed+Systems;%E2%98%95+Java+%C2%B7+Spring+Boot+%C2%B7+Redis+%C2%B7+RabbitMQ+%C2%B7+Docker" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=00E5FF&center=true&vCenter=true&width=700&lines=%E2%9A%A1+Building+high-concurrency+systems+that+scale;%F0%9F%94%A5+SpikeGuard+%E2%80%94+Seckill+E-Commerce+Platform;%F0%9F%A7%A0+Microservices+%7C+Distributed+%7C+Cloud+Native;%E2%98%95+Java+%C2%B7+Spring+%C2%B7+Redis+%C2%B7+K8s+%C2%B7+Docker;%F0%9F%9A%80+Keep+building.+Keep+shipping." alt="typing" />
   </a>
-</p>
-
-<!-- ==================== PROFILE VIEWS COUNTER ==================== -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaduoxzero&style=for-the-badge&color=0e75b6&label=Profile+Views" alt="profile views" />
-</p>
-
-<!-- ==================== ABOUT ME ==================== -->
-<p align="center">
-  <samp>
-    A backend engineer passionate about <em>high-concurrency systems</em> and <em>microservices</em>.
-    <br/>
-    Currently building <strong>SpikeGuard</strong> &#x2014; a seckill e-commerce platform.
-    <br/>
-    Java &#183; Spring Boot &#183; Redis &#183; RabbitMQ &#183; PostgreSQL &#183; Docker
-  </samp>
-</p>
+</div>
 
 <p align="center">
-  <a href="https://github.com/kaduoxzero"><img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:liulizhi64@gmail.com"><img src="https://img.shields.io/badge/Email-liulizhi64@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=kaduoxzero&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="views" />
 </p>
+
+<br clear="both"/>
+
+---
+
+<!-- ==================== JS CODE BLOCK SELF-INTRO ==================== -->
+<div align="center">
+  <h2>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+About+Me&fontSize=28&height=50" />
+  </h2>
+</div>
+
+```javascript
+const kaduoxzero = {
+  name: "kaduoxzero",
+  role: "Backend Engineer & Open Source Enthusiast",
+
+  code: ["Java", "Spring Boot", "Python", "TypeScript", "SQL"],
+
+  askMeAbout: [
+    "⚡ High-concurrency system design",
+    "🔥 Microservices & distributed architecture",
+    "🧠 Seckill / flash-sale optimization",
+    "🛡️ Risk control & AI-powered decisions",
+  ],
+
+  technologies: {
+    backend:    ["Java 21", "Spring Boot 3", "Spring Cloud Alibaba", "Spring Security", "MyBatis-Plus"],
+    middleware: ["Redis", "RabbitMQ", "Elasticsearch", "Nacos", "Sentinel", "Seata"],
+    database:   ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
+    frontend:   ["Vue 3", "Vite", "TypeScript", "Element Plus", "ECharts"],
+    devOps:     ["Docker", "GitHub Actions", "Prometheus", "Grafana", "Zipkin"],
+    ai:         ["Python", "FastAPI", "LangGraph", "DeepSeek API", "Spring AI", "RAG"],
+  },
+
+  architecture: ["Microservices", "Event-Driven", "CQRS", "DDD", "Saga Pattern"],
+
+  currentFocus: "SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine",
+
+  funFact: "☕ I debug with coffee and deploy with confidence.",
+};
+```
+
+---
+
+<!-- ==================== SOCIAL BADGES ==================== -->
+<div align="center">
+  <a href="https://github.com/kaduoxzero">
+    <img src="https://img.shields.io/badge/GitHub-kaduoxzero-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:liulizhi64@gmail.com">
+    <img src="https://img.shields.io/badge/Email-liulizhi64@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <img src="https://img.shields.io/badge/Status-Active-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Status"/>
+</div>
 
 <br/>
 
-<!-- ==================== ANIMATED TECH ICONS (skillicons) ==================== -->
-<h2 align="center">&#x1F6E0;&#xFE0F; Tech Stack</h2>
+---
 
-<p align="center">
+<!-- ==================== TECH STACK ==================== -->
+<div align="center">
+  <h2>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%9B%A0%EF%B8%8F+Tech+Stack&fontSize=28&height=50" />
+  </h2>
+</div>
+
+<div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,postgresql,mysql,docker,nginx,linux,git,python,vscode,maven,html,css,vue,typescript,elasticsearch&theme=dark&perline=9" alt="tech stack" />
+    <img src="https://skillicons.dev/icons?i=java,spring,redis,rabbitmq,postgresql,mysql,docker,nginx,linux,git,python,vscode,maven,html,css,vue,typescript,elasticsearch&theme=dark&perline=9" alt="tech stack"/>
   </a>
-</p>
+</div>
+
+<br/>
 
 <details>
-<summary><b>&#x1F4CA; Detailed Tech Stack</b></summary>
+<summary><b>📊 Detailed Tech Stack</b></summary>
 <br/>
 
 | Domain | Core Technologies |
 |--------|-------------------|
-| **Backend** | Java 21 &#183; Spring Boot 3 &#183; Spring Cloud Alibaba &#183; Spring Security &#183; MyBatis-Plus &#183; JWT / RBAC |
-| **Middleware** | PostgreSQL &#183; MySQL &#183; Redis &#183; RabbitMQ &#183; Elasticsearch &#183; MinIO &#183; Nacos &#183; Sentinel &#183; Seata |
-| **Frontend** | Vue 3 &#183; Vite &#183; Element Plus &#183; Vant &#183; ECharts &#183; Three.js &#183; Axios |
-| **DevOps & AI** | Docker &#183; GitHub Actions &#183; Prometheus &#183; Grafana &#183; Zipkin &#183; Kibana &#183; DeepSeek API &#183; Spring AI &#183; RAG |
+| **Backend** | Java 21 · Spring Boot 3 · Spring Cloud Alibaba · Spring Security · MyBatis-Plus · JWT / RBAC |
+| **Middleware** | PostgreSQL · MySQL · Redis · RabbitMQ · Elasticsearch · MinIO · Nacos · Sentinel · Seata |
+| **Frontend** | Vue 3 · Vite · Element Plus · Vant · ECharts · Three.js · Axios |
+| **DevOps & AI** | Docker · GitHub Actions · Prometheus · Grafana · Zipkin · Kibana · DeepSeek API · Spring AI · RAG |
 
 </details>
 
 <br/>
 
+---
+
+<!-- ==================== GITHUB STATISTICS ==================== -->
+<div align="center">
+  <h2>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%93%8A+GitHub+Statistics&fontSize=28&height=50" />
+  </h2>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="stats"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos-per-language"/>
+</div>
+
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=tokyonight" alt="most-commit-language"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" alt="productive-time"/>
+</div>
+
+<details>
+<summary><b>📈 Full Profile Details</b></summary>
+<br/>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details"/>
+</div>
+</details>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaduoxzero&theme=tokyonight&hide_border=true&border_radius=10" alt="streak-stats"/>
+</div>
+
+<br/>
+
+---
+
 <!-- ==================== FEATURED PROJECTS ==================== -->
-<h2 align="center">&#x1F680; Featured Projects</h2>
+<div align="center">
+  <h2>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%9A%80+Featured+Projects&fontSize=28&height=50" />
+  </h2>
+</div>
 
 <table align="center">
   <tr>
-    <td width="50%">
-      <h3 align="center">&#x1F6E1;&#xFE0F; SpikeGuard</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🛡️ SpikeGuard</h3>
       <p align="center">
         <a href="https://github.com/kaduoxzero/SpikeGuard">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" width="100%" alt="spikeguard" />
+          <img src="https://img.shields.io/badge/SpikeGuard-Seckill_Platform-0e75b6?style=for-the-badge&logo=spring&logoColor=white" alt="spikeguard"/>
         </a>
       </p>
       <p align="center">
-        Microservice e-commerce for seckill scenarios.<br/>
-        <em>Gateway &#183; Seckill &#183; Order &#183; Risk &#183; Frontend</em><br/>
+        Microservice e-commerce platform for high-concurrency seckill scenarios.<br/>
+        <em>Gateway · Seckill · Order · Risk · Payment · Frontend</em><br/>
         <code>Java 21</code> <code>Spring Cloud</code> <code>Redis</code> <code>RabbitMQ</code> <code>Vue 3</code>
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center">&#x1F9E0; SemiRisk</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🧠 SemiRisk AI</h3>
       <p align="center">
-        <a href="https://github.com/kaduoxzero/SemiRisk">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" width="100%" alt="semirisk" />
+        <a href="https://github.com/kaduoxzero/SpikeGuard">
+          <img src="https://img.shields.io/badge/SemiRisk-AI_Risk_Engine-9b59b6?style=for-the-badge&logo=python&logoColor=white" alt="semirisk"/>
         </a>
       </p>
       <p align="center">
-        AI-powered semiconductor supply chain risk monitoring.<br/>
-        <em>RAG &#183; Vector Search &#183; AI Report Generation</em><br/>
-        <code>Java 21</code> <code>Elasticsearch</code> <code>LangGraph</code> <code>DeepSeek</code> <code>Vue 3</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">&#x1F3E0; YunLanHome</h3>
-      <p align="center">
-        O2O home service platform.<br/>
-        <em>High-concurrency business &#183; Distributed consistency</em><br/>
-        <code>Java 21</code> <code>Spring Cloud</code> <code>Redis Geo</code> <code>Seata</code> <code>Vue 3</code>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">&#x1F393; WebAI-Tlias</h3>
-      <p align="center">
-        Education admin system.<br/>
-        <em>JWT &#183; CRUD &#183; File Upload &#183; Operation Log</em><br/>
-        <code>Spring Boot</code> <code>Vue 3</code> <code>Element Plus</code> <code>MyBatis</code>
+        AI-powered risk assessment engine using LangGraph workflow.<br/>
+        <em>FastAPI · LangGraph · DeepSeek · RAG · Rule Engine</em><br/>
+        <code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>DeepSeek</code>
       </p>
     </td>
   </tr>
@@ -111,64 +181,57 @@
 
 <br/>
 
-<!-- ==================== GITHUB STATISTICS ==================== -->
-<h2 align="center">&#x1F4CA; GitHub Statistics</h2>
+---
 
-<!-- Streak Stats with fire animation -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kaduoxzero&theme=tokyonight&hide_border=true&fire=FF6B35&ring=FF6B35&dates=FFFFFF&background=0d1117" alt="streak stats" />
-</p>
+<!-- ==================== DYNAMIC CONTRIBUTION GRAPHS ==================== -->
+<div align="center">
+  <h2>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00E5FF&text=%F0%9F%90%8D+Contribution+Graph&fontSize=28&height=50" />
+  </h2>
+</div>
 
-<!-- Profile Summary Cards -->
-<table align="center">
-  <tr>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile details" /></td>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" alt="stats" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" alt="repos language" /></td>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=tokyonight" alt="commit language" /></td>
-  </tr>
-</table>
-
-<!-- Activity Graph with animation -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&bg_color=0d1117&color=58a6ff&line=8a2be2&point=1f6feb&area=true&hide_border=true" alt="activity graph" />
-</p>
-
-<!-- Productive Time -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight&utcOffset=8" alt="productive time" />
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=tokyo-night&hide_border=true&border_radius=10&area=true" alt="activity-graph"/>
+</div>
 
 <br/>
 
-<!-- ==================== CONTRIBUTION ANIMATIONS ==================== -->
-<h2 align="center">&#x1F40D; Contribution Animations</h2>
+<details>
+<summary><b>🌍 3D Contribution Calendar</b></summary>
+<br/>
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="3d-contrib-night"/>
+</div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib-rainbow"/>
+</div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3d-contrib-season-animate"/>
+</div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-gitblock.svg" alt="3d-contrib-gitblock"/>
+</div>
+</details>
 
-<!-- Snake Animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
-</p>
-
-<!-- 3D Contribution -->
-<p align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution" />
-</p>
-
-<!-- Calendar Heatmap -->
-<p align="center">
-  <img src="https://ghchart.rshah.org/tokyonight/kaduoxzero" width="100%" alt="calendar heatmap" />
-</p>
+<details>
+<summary><b>💻 GitHub Metrics</b></summary>
+<br/>
+<div align="center">
+  <img src="github-metrics.svg" alt="github-metrics" width="100%"/>
+</div>
+</details>
 
 <br/>
+
+---
 
 <!-- ==================== FOOTER ==================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer&animation=fadeIn" width="100%" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!%20%F0%9F%91%8B&fontSize=20&fontColor=fff&animation=fadeIn&fontAlignY=65" width="100%"/>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=for-the-badge" alt="made with love" />
-  <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Java-blue?style=for-the-badge" alt="powered by java" />
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=flat-square" alt="made with love"/>
+  <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Coffee-orange?style=flat-square" alt="powered by coffee"/>
+  <img src="https://img.shields.io/badge/Built%20with-Java%2021-blue?style=flat-square" alt="built with java"/>
+</div>
