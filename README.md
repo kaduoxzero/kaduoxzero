@@ -26,32 +26,36 @@
   </h2>
 </div>
 
-## 👨‍💻 About Me
+```javascript
+const kaduoxzero = {
+  name: "kaduoxzero",
+  role: "Backend Engineer & Open Source Enthusiast",
 
-**Name:** kaduoxzero  
-**Role:** Backend Engineer & Open Source Enthusiast  
+  code: ["Java", "Spring Boot", "Python", "TypeScript", "SQL"],
 
-**Tech Stack:** Java, Spring Boot, Python, TypeScript, SQL  
+  askMeAbout: [
+    "⚡ High-concurrency system design",
+    "🔥 Microservices & distributed architecture",
+    "🧠 Seckill / flash-sale optimization",
+    "🛡️ Risk control & AI-powered decisions",
+  ],
 
-**Focus Areas:**
-- ⚡ High-concurrency system design
-- 🔥 Microservices & distributed architecture
-- 🍬 Seckill / flash-sale optimization
-- 🛡️ Risk control & AI-powered decisions
+  technologies: {
+    backend:    ["Java 21", "Spring Boot 3", "Spring Cloud Alibaba", "Spring Security", "MyBatis-Plus"],
+    middleware: ["Redis", "RabbitMQ", "Elasticsearch", "Nacos", "Sentinel", "Seata"],
+    database:   ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
+    frontend:   ["Vue 3", "Vite", "TypeScript", "Element Plus", "ECharts"],
+    devOps:     ["Docker", "GitHub Actions", "Prometheus", "Grafana", "Zipkin"],
+    ai:         ["Python", "FastAPI", "LangGraph", "DeepSeek API", "Spring AI", "RAG"],
+  },
 
-**Technologies:**
-- **Backend:** Java 21, Spring Boot 3, Spring Cloud Alibaba, Spring Security, MyBatis-Plus
-- **Middleware:** Redis, RabbitMQ, Elasticsearch, Nacos, Sentinel, Seata
-- **Database:** PostgreSQL, MySQL, Redis, Elasticsearch
-- **Frontend:** Vue 3, Vite, TypeScript, Element Plus, ECharts
-- **DevOps:** Docker, GitHub Actions, Prometheus, Grafana, Zipkin
-- **AI:** Python, FastAPI, LangGraph, DeepSeek API, Spring AI, RAG
+  architecture: ["Microservices", "Event-Driven", "CQRS", "DDD", "Saga Pattern"],
 
-**Architecture Patterns:** Microservices, Event-Driven, CQRS, DDD, Saga Pattern
+  currentFocus: "SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine",
 
-**Current Focus:** SpikeGuard — Seckill E-Commerce Platform & SemiRisk AI Risk Engine
-
-**Fun Fact:** ☕ I debug with coffee and deploy with confidence.
+  funFact: "☕ I debug with coffee and deploy with confidence.",
+};
+```
 
 ---
 
@@ -119,11 +123,13 @@
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" alt="productive-time"/>
 </div>
 
-### 📈 Full Profile Details
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details" />
-</p>
+<details>
+<summary><b>📈 Full Profile Details</b></summary>
+<br/>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=tokyonight" alt="profile-details"/>
+</div>
+</details>
 
 <br/>
 
@@ -190,18 +196,22 @@
 
 <br/>
 
-
-### 🌍 3D Contribution Calendar
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Rainbow 3D Calendar" />
-</p>
-
+<details>
+<summary><b>🌍 3D Contribution Calendar</b></summary>
 <br/>
-
 <div align="center">
-  <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="3d-contrib-night"/>
 </div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib-rainbow"/>
+</div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3d-contrib-season-animate"/>
+</div>
+<div align="center">
+  <img src="profile-3d-contrib/profile-gitblock.svg" alt="3d-contrib-gitblock"/>
+</div>
+</details>
 
 <!--
 <details>
@@ -227,3 +237,7 @@
   <img src="https://img.shields.io/badge/Powered%20by-%E2%98%95%20Coffee-orange?style=flat-square" alt="powered by coffee"/>
   <img src="https://img.shields.io/badge/Built%20with-Java%2021-blue?style=flat-square" alt="built with java"/>
 </div>
+
+> 💡 **GitHub Metrics 需要配置 classic PAT**  
+> 请在仓库 Settings → Secrets → Actions 中添加 `METRICS_TOKEN`（需要 `repo` + `read:user` 权限）  
+> 然后取消注释 README 中的 Metrics 区域并重新触发 workflow
