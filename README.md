@@ -170,17 +170,20 @@
 
 ---
 
-<!-- ==================== DYNAMIC CONTRIBUTION GRAPHS ==================== -->
+<!-- ==================== SNAKE CONTRIBUTION ANIMATION ==================== -->
 <div align="center">
   <h2>
-    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%90%8D+Contribution+Graph&fontSize=30&height=55&animation=fadeIn" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%90%8D+Contribution+Snake&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaduoxzero&theme=github-light&hide_border=true&radius=10&area=true&v=20260902" alt="activity-graph"/>
-</div>
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ### 🌍 3D Contribution Calendar
 
@@ -189,10 +192,6 @@
 </p>
 
 <br/>
-
-
-<!-- snake animation removed -->
-
 
 <div align="center">
   <img src="https://ghchart.rshah.org/kaduoxzero" alt="calendar-heatmap"/>
