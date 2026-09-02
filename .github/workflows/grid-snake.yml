@@ -27,6 +27,23 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Slow down snake animation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          files = [
+              Path("dist/github-contribution-grid-snake.svg"),
+              Path("dist/github-contribution-grid-snake-dark.svg"),
+          ]
+
+          for path in files:
+              text = path.read_text(encoding="utf-8")
+              if "23500ms" not in text:
+                  raise RuntimeError(f"Expected animation duration not found in {path}")
+              path.write_text(text.replace("23500ms", "42000ms"), encoding="utf-8")
+          PY
+
       - name: Push snake animation to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
