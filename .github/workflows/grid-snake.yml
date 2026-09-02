@@ -44,8 +44,8 @@ jobs:
               if "23500ms" not in text:
                   raise RuntimeError(f"Expected animation duration not found in {path}")
 
-              # Slow the full animation cycle down from 23.5s to 90s.
-              text = text.replace("23500ms", "90000ms")
+              # Slow the full animation cycle down from 23.5s to 65s.
+              text = text.replace("23500ms", "65000ms")
 
               # Platane/snk intentionally places the snake one row above the
               # contribution grid at the beginning/end (y = -16px). Keep the
