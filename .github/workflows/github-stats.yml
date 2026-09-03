@@ -28,26 +28,55 @@ jobs:
         with:
           fetch-depth: 0
 
-      # METRICS_TOKEN is the existing PAT used by the Metrics workflow.
-      # Running the generator locally with this PAT allows private repositories
-      # visible to the token to be included in aggregate statistics.
-      - name: Generate profile cards with private repository access
-        uses: vn7n24fzkq/github-profile-summary-cards@release
+      # Upstream hard-codes the two language cards to Top 5. Clone the same
+      # release source, patch those two slices to Top 6, build it, and run it
+      # locally with the existing PAT so private repositories are still counted.
+      - name: Build Top 6 profile card generator
+        shell: bash
+        run: |
+          set -euo pipefail
+          CARD_TOOL_DIR="${RUNNER_TEMP}/github-profile-summary-cards"
+          rm -rf "$CARD_TOOL_DIR"
+          git clone --depth 1 --branch release \
+            https://github.com/vn7n24fzkq/github-profile-summary-cards.git \
+            "$CARD_TOOL_DIR"
+
+          cd "$CARD_TOOL_DIR"
+          sed -i 's/slice(0, 5); \/\/ get top 5/slice(0, 6); \/\/ get top 6/' \
+            src/cards/repos-per-language-card.ts \
+            src/cards/most-commit-language-card.ts
+
+          test "$(grep -R -l 'slice(0, 6); // get top 6' \
+            src/cards/repos-per-language-card.ts \
+            src/cards/most-commit-language-card.ts | wc -l)" -eq 2
+
+          npm ci --ignore-scripts
+          npm run build
+
+      - name: Generate Top 6 profile cards with private repository access
+        shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          UTC_OFFSET: 8
-          AUTO_PUSH: false
-          THEME: outrun
+          INPUT_USERNAME: ${{ github.repository_owner }}
+          INPUT_UTC_OFFSET: "8"
+          INPUT_EXCLUDE: ""
+          INPUT_EXCLUDE_REPOS: ""
+          INPUT_AUTO_PUSH: "false"
+          INPUT_THEME: "outrun"
+          INPUT_ANIMATION: ""
+          INPUT_DURATION: ""
+          INPUT_NAME: ""
+        run: |
+          set -euo pipefail
+          cd "${RUNNER_TEMP}/github-profile-summary-cards"
+          node lib/app.js
 
       - name: Copy generated cards to README assets
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p assets
-          SRC="profile-summary-card-output/outrun"
+          SRC="${RUNNER_TEMP}/github-profile-summary-cards/profile-summary-card-output/outrun"
 
           cp "${SRC}/3-stats.svg" assets/stats.svg
           cp "${SRC}/1-repos-per-language.svg" assets/repos-per-language.svg
@@ -81,6 +110,10 @@ jobs:
             test -s "$file"
             grep -qi "<svg" "$file"
           done
+
+          # The two language cards are customized to allow six legend entries.
+          test "$(grep -o 'class=\"gpsc-item\"' assets/repos-per-language.svg | wc -l)" -gt 10
+          test "$(grep -o 'class=\"gpsc-item\"' assets/most-commit-language.svg | wc -l)" -gt 10
 
       - name: Commit and push if changed
         shell: bash
