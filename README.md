@@ -103,25 +103,25 @@
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=outrun" alt="stats"/>
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=outrun" alt="repos-per-language"/>
+  <img height="180em" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/stats.svg" alt="stats"/>
+  <img height="180em" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/repos-per-language.svg" alt="repos-per-language"/>
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaduoxzero&theme=outrun" alt="most-commit-language"/>
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=outrun" alt="productive-time"/>
+  <img height="180em" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/most-commit-language.svg" alt="most-commit-language"/>
+  <img height="180em" src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/productive-time.svg" alt="productive-time"/>
 </div>
 
 ### 📈 Full Profile Details
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaduoxzero&theme=outrun" alt="profile-details"/>
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/profile-details.svg" alt="profile-details"/>
 </p>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaduoxzero&theme=outrun&hide_border=true&border_radius=10" alt="streak-stats"/>
+  <img src="https://raw.githubusercontent.com/kaduoxzero/kaduoxzero/main/assets/streak-stats.svg" alt="streak-stats"/>
 </div>
 
 <br/>
