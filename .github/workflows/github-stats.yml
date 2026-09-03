@@ -2,7 +2,7 @@ name: GitHub Stats Cards
 
 on:
   schedule:
-    # 02:00 Asia/Shanghai every day (GitHub cron uses UTC)
+    # Daily at 02:00 Asia/Shanghai (GitHub cron uses UTC)
     - cron: "0 18 * * *"
   workflow_dispatch:
   push:
