@@ -5,6 +5,9 @@ on:
     # 02:00 Asia/Shanghai every day (GitHub cron uses UTC)
     - cron: "0 18 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/github-stats.yml"
 
 permissions:
   contents: write
