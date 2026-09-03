@@ -59,6 +59,7 @@ jobs:
           npm run build
 
       # Aggregate-only diagnostic: no private repository names are printed.
+      # Re-checks after the Kaduox-SSH Linguist override is committed.
       # It tells us whether the PAT can see private repos whose GitHub primary
       # language is Rust, and whether GitHub has a dominant-language fallback.
       - name: Check Rust visibility for stats token
