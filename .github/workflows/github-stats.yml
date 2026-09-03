@@ -2,6 +2,7 @@ name: GitHub Stats Cards
 
 on:
   schedule:
+    # 02:00 Asia/Shanghai every day (GitHub cron uses UTC)
     - cron: "0 18 * * *"
   workflow_dispatch:
 
@@ -10,7 +11,7 @@ permissions:
 
 jobs:
   generate-stats:
-    name: Generate Stats Cards
+    name: Generate Daily Stats Cards
     runs-on: ubuntu-latest
 
     steps:
@@ -20,22 +21,72 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Generate Stats Card (summary-cards)
+      - name: Download latest profile cards
+        shell: bash
         run: |
-          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaduoxzero&theme=tokyonight" -o assets/stats.svg
+          set -euo pipefail
 
-      - name: Generate Repos Per Language Card (summary-cards)
-        run: |
-          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaduoxzero&theme=tokyonight" -o assets/repos-per-language.svg
+          BASE="https://github-profile-summary-cards.vercel.app/api/cards"
+          USERNAME="kaduoxzero"
+          THEME="outrun"
+          CACHE_BUST="$(date +%s)"
 
-      - name: Generate Productive Time Card (summary-cards)
+          curl -fL --retry 3 --retry-delay 2 \
+            "${BASE}/stats?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
+            -o assets/stats.svg
+
+          curl -fL --retry 3 --retry-delay 2 \
+            "${BASE}/repos-per-language?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
+            -o assets/repos-per-language.svg
+
+          curl -fL --retry 3 --retry-delay 2 \
+            "${BASE}/most-commit-language?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
+            -o assets/most-commit-language.svg
+
+          curl -fL --retry 3 --retry-delay 2 \
+            "${BASE}/productive-time?username=${USERNAME}&theme=${THEME}&utcOffset=8&v=${CACHE_BUST}" \
+            -o assets/productive-time.svg
+
+          curl -fL --retry 3 --retry-delay 2 \
+            "${BASE}/profile-details?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
+            -o assets/profile-details.svg
+
+      - name: Download latest streak card
+        shell: bash
         run: |
-          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaduoxzero&theme=tokyonight" -o assets/productive-time.svg
+          set -euo pipefail
+          CACHE_BUST="$(date +%s)"
+          curl -fL --retry 3 --retry-delay 2 \
+            "https://streak-stats.demolab.com?user=kaduoxzero&theme=outrun&hide_border=true&border_radius=10&v=${CACHE_BUST}" \
+            -o assets/streak-stats.svg
+
+      - name: Validate generated SVG files
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in \
+            assets/stats.svg \
+            assets/repos-per-language.svg \
+            assets/most-commit-language.svg \
+            assets/productive-time.svg \
+            assets/profile-details.svg \
+            assets/streak-stats.svg; do
+            test -s "$file"
+            grep -qi "<svg" "$file"
+          done
 
       - name: Commit and push if changed
+        shell: bash
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add assets/stats.svg assets/repos-per-language.svg assets/productive-time.svg
-          git diff --staged --quiet || git commit -m "chore: update stats cards SVG [skip ci]"
+          set -euo pipefail
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/*.svg
+
+          if git diff --staged --quiet; then
+            echo "No stats changes detected."
+            exit 0
+          fi
+
+          git commit -m "chore: update daily GitHub stats [skip ci]"
           git push
