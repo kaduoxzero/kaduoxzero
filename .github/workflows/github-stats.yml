@@ -20,6 +20,7 @@ jobs:
   generate-stats:
     name: Generate Daily Stats Cards
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -27,39 +28,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create assets directory
-        run: mkdir -p assets
+      # METRICS_TOKEN is the existing PAT used by the Metrics workflow.
+      # Running the generator locally with this PAT allows private repositories
+      # visible to the token to be included in aggregate statistics.
+      - name: Generate profile cards with private repository access
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          AUTO_PUSH: false
+          THEME: outrun
 
-      - name: Download latest profile cards
+      - name: Copy generated cards to README assets
         shell: bash
         run: |
           set -euo pipefail
+          mkdir -p assets
+          SRC="profile-summary-card-output/outrun"
 
-          BASE="https://github-profile-summary-cards.vercel.app/api/cards"
-          USERNAME="kaduoxzero"
-          THEME="outrun"
-          CACHE_BUST="$(date +%s)"
+          cp "${SRC}/3-stats.svg" assets/stats.svg
+          cp "${SRC}/1-repos-per-language.svg" assets/repos-per-language.svg
+          cp "${SRC}/2-most-commit-language.svg" assets/most-commit-language.svg
+          cp "${SRC}/4-productive-time.svg" assets/productive-time.svg
+          cp "${SRC}/0-profile-details.svg" assets/profile-details.svg
 
-          curl -fL --retry 3 --retry-delay 2 \
-            "${BASE}/stats?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
-            -o assets/stats.svg
-
-          curl -fL --retry 3 --retry-delay 2 \
-            "${BASE}/repos-per-language?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
-            -o assets/repos-per-language.svg
-
-          curl -fL --retry 3 --retry-delay 2 \
-            "${BASE}/most-commit-language?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
-            -o assets/most-commit-language.svg
-
-          curl -fL --retry 3 --retry-delay 2 \
-            "${BASE}/productive-time?username=${USERNAME}&theme=${THEME}&utcOffset=8&v=${CACHE_BUST}" \
-            -o assets/productive-time.svg
-
-          curl -fL --retry 3 --retry-delay 2 \
-            "${BASE}/profile-details?username=${USERNAME}&theme=${THEME}&v=${CACHE_BUST}" \
-            -o assets/profile-details.svg
-
+      # Streak Stats reads GitHub's public contribution calendar. Private
+      # contributions are included when the GitHub profile option
+      # "Include private contributions on my profile" is enabled.
       - name: Download latest streak card
         shell: bash
         run: |
@@ -100,7 +98,7 @@ jobs:
           git commit -m "chore: update daily GitHub stats [skip ci]"
 
           # Other profile workflows may push to main at the same time.
-          # Rebase and retry so the stats update does not fail with a non-fast-forward error.
+          # Rebase and retry to avoid non-fast-forward failures.
           for attempt in 1 2 3; do
             git fetch origin main
             git rebase origin/main
