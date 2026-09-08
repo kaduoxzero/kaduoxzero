@@ -1,6 +1,6 @@
 <!-- ==================== ANIMATED HEADER ==================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4,5,6,7,8&height=260&section=header&text=Hi%20there%2C%20I'm%20kaduoxzero&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20Agent%20Engineering&descAlignY=58&descSize=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4,5,6,7,8&height=260&section=header&text=Hi%20there%2C%20I'm%20Kaduox&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Distributed%20Systems%20%7C%20Agent%20Engineering&descAlignY=58&descSize=18" width="100%" />
 </p>
 
 <!-- ==================== TYPING SVG + CODING GIF ==================== -->
@@ -28,7 +28,7 @@
 
 ## 👨‍💻 About Me
 
-**Name:** kaduoxzero  
+**Name:** Kaduox  
 **Role:** Backend Engineer · Distributed Systems · Agent Engineering
 
 **Primary Stack:** Java 21, Spring Boot / Spring Cloud, Python, Rust, Go, TypeScript, SQL
