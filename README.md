@@ -7,7 +7,7 @@
 <div align="center">
   <img align="right" width="280" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="coding"/>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=gradient&center=true&vCenter=true&width=760&lines=%E2%9A%A1+Building+distributed+backends+and+high-concurrency+systems;%F0%9F%A4%96+Engineering+production-ready+AI+Agents+and+RAG;%F0%9F%A7%A0+LangGraph+%C2%B7+MCP+%C2%B7+Multi-Agent+%C2%B7+Agent+Runtime;%E2%98%95+Java+21+%C2%B7+Spring+Cloud+%C2%B7+Redis+%C2%B7+PostgreSQL;%F0%9F%A6%80+Rust+%C2%B7+Go+%C2%B7+Python+%C2%B7+TypeScript;%F0%9F%9A%80+SpikeGuard+%C2%B7+SemiRisk+%C2%B7+AI-Agent" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=gradient&center=true&vCenter=true&width=760&lines=%E2%9A%A1+Building+distributed+backends+and+high-concurrency+systems;%F0%9F%A4%96+Engineering+production-ready+AI+Agents+and+RAG;%F0%9F%A7%A0+LangGraph+%C2%B7+MCP+%C2%B7+Multi-Agent+%C2%B7+Agent+Runtime;%E2%98%95+Java+21+%C2%B7+Spring+Cloud+%C2%B7+Redis+%C2%B7+PostgreSQL;%F0%9F%A6%80+Rust+%C2%B7+Go+%C2%B7+Python+%C2%B7+TypeScript;%F0%9F%9A%80+SpikeGuard+%C2%B7+Kaduox--SSH+%C2%B7+SemiRisk+%C2%B7+AI--Agent" alt="typing" />
   </a>
 </div>
 
@@ -41,6 +41,7 @@
 - 🛠️ Systems tooling, SSH/SFTP, automation and developer infrastructure
 
 **Current Portfolio:**
+- **Kaduox-SSH** — Rust-powered SSH desktop client and toolkit with SFTP, jump chains, forwarding and MCP / Agent integration
 - **SpikeGuard** — high-concurrency intelligent risk-control platform
 - **SemiRisk** — AI-driven semiconductor supply-chain risk platform
 - **AI-Agent** — production-oriented Agent Engineering knowledge and runtime system
@@ -138,6 +139,19 @@
     <img src="https://capsule-render.vercel.app/api?type=transparent&color=000000&fontColor=000000&text=%F0%9F%9A%80+Featured+Projects&fontSize=30&height=55&animation=fadeIn" />
   </h2>
 </div>
+
+<div align="center">
+  <h3>🖥️ Kaduox-SSH</h3>
+  <a href="https://github.com/kaduoxzero/Kaduox-SSH">
+    <img src="https://img.shields.io/badge/Kaduox--SSH-Rust_SSH_%26_Agent_Toolkit-DEA584?style=for-the-badge&logo=rust&logoColor=white" alt="kaduox-ssh"/>
+  </a>
+  <p>
+    Rust-powered SSH desktop client and toolkit for terminals, SFTP remote files, multi-hop jump chains, local/remote/SOCKS5 forwarding, system metrics, CLI/TUI workflows and local stdio MCP integration for external Agents.<br/>
+    <code>Rust</code> <code>Tauri</code> <code>SSH / SFTP</code> <code>ProxyJump</code> <code>MCP</code> <code>Agent Integration</code>
+  </p>
+</div>
+
+<br/>
 
 <table align="center">
   <tr>
