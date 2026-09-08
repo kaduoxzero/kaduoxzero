@@ -37,10 +37,8 @@ jobs:
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
 
-
           plugin_calendar: yes
           plugin_calendar_limit: 1
-
 
           # plugin_activity: yes
           # plugin_activity_limit: 5
@@ -48,6 +46,9 @@ jobs:
           # plugin_activity_filter: all
 
           plugin_repositories: yes
+          # Keep newly promoted portfolio projects deterministic instead of relying
+          # only on pinned/starred/random repository selection.
+          plugin_repositories_featured: kaduoxzero/Kaduox-SSH
           plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 4
           plugin_repositories_starred: 4
