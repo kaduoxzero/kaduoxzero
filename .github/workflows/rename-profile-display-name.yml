@@ -1,0 +1,40 @@
+name: Rename profile display name
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rename-profile-display-name.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rename:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update profile display name
+        shell: python
+        run: |
+          from pathlib import Path
+          path = Path('README.md')
+          text = path.read_text(encoding='utf-8')
+          replacements = [
+              ('text=Hi%20there%2C%20I\'m%20kaduoxzero', 'text=Hi%20there%2C%20I\'m%20Kaduox'),
+              ('**Name:** kaduoxzero  ', '**Name:** Kaduox  '),
+          ]
+          for old, new in replacements:
+              if old not in text:
+                  raise SystemExit(f'Expected text not found: {old}')
+              text = text.replace(old, new, 1)
+          path.write_text(text, encoding='utf-8')
+      - name: Commit profile display-name update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --check
+          git commit -m "docs: rename profile display name to Kaduox [skip ci]"
+          git push
